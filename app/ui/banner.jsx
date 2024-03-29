@@ -18,13 +18,14 @@ export default function Banner() {
         playsinline={true}
         loop
         muted
+        posterOptions={{ publicId: "gzphvg7gj7pybifcmdib", effect: ["sepia"] }}
       />
       <div className="absolute bottom-14 left-10 hidden md:block max-w-96">
         <h2 className="text-xl text-white font-normal mb-4">
           <span className="font-semibold">Pioneering Prestige:</span> Where
           Luxury Meets Exceptional Service
         </h2>
-        <button className="btn">Explore</button>
+        <button className="btn-border-white">Explore</button>
       </div>
     </section>
   );
