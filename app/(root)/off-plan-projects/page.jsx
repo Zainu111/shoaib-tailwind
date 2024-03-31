@@ -1,4 +1,5 @@
 import HeaderBlack from "@/app/ui/headerBlack";
+import Link from "next/link";
 import React from "react";
 
 export default function page() {
@@ -18,9 +19,9 @@ export default function page() {
         </div>
         <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-x-[43px] gap-y-[20px] md:gap-y-[35px] xl:gap-y-[50px]">
           <div className="relative bg-white border border-gray-100 shadow-sm w-full h-full transition-all ease-in-out duration-300 hover:shadow-md hover:-translate-y-1">
-            <a
+            <Link
               area-label="Project Baccarat Hotel and Residences"
-              href="/project/baccarat-hotel-and-residences-downtown-dubai/"
+              href="/off-plan-projects/baccarat-hotel-and-residences-downtown-dubai/"
             >
               <div className="absolute ml-4 mt-5 z-10 flex flex-col items-start gap-y-2">
                 <div className="bg-white px-2 py-1 text-xs font-normal rounded-[4px] font-benton">
@@ -46,7 +47,7 @@ export default function page() {
                     style={{ left: 0, width: 500 }}
                   >
                     <img
-                      src="https://sothebysrealty.ae/cdn-cgi/image/format=auto,width=600,height=600,quality=90/https://sothebys-assets.s3.eu-west-2.amazonaws.com/addcb2d5-61e3-4b3c-be05-df64f6f00023.webp?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAVUGRI3I4W7JEORM2%2F20240330%2Feu-west-2%2Fs3%2Faws4_request&X-Amz-Date=20240330T123148Z&X-Amz-Expires=5000&X-Amz-Signature=6cdf4022ddaecddcd501753ea32117bbe038c4b16d5995680f94a1ffe951731d&X-Amz-SignedHeaders=host&x-id=GetObject"
+                      src="https://sothebys-assets.s3.eu-west-2.amazonaws.com/addcb2d5-61e3-4b3c-be05-df64f6f00023.webp?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAVUGRI3I4W7JEORM2%2F20240330%2Feu-west-2%2Fs3%2Faws4_request&X-Amz-Date=20240330T123148Z&X-Amz-Expires=5000&X-Amz-Signature=6cdf4022ddaecddcd501753ea32117bbe038c4b16d5995680f94a1ffe951731d&X-Amz-SignedHeaders=host&x-id=GetObject"
                       className="w-full h-full object-cover"
                       loading="lazy"
                     />
@@ -57,7 +58,7 @@ export default function page() {
                     style={{ left: 0, width: 500 }}
                   >
                     <img
-                      src="https://sothebysrealty.ae/cdn-cgi/image/format=auto,width=600,height=600,quality=90/https://sothebys-assets.s3.eu-west-2.amazonaws.com/3226829a-03d5-41df-b467-91cee534ad0a.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAVUGRI3I4W7JEORM2%2F20240330%2Feu-west-2%2Fs3%2Faws4_request&X-Amz-Date=20240330T123148Z&X-Amz-Expires=5000&X-Amz-Signature=d79632e15fc99e4f12f4d7755e4c97f050fdd284d298a87eac2d7c534dd9533e&X-Amz-SignedHeaders=host&x-id=GetObject"
+                      src="https://sothebys-assets.s3.eu-west-2.amazonaws.com/3226829a-03d5-41df-b467-91cee534ad0a.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAVUGRI3I4W7JEORM2%2F20240330%2Feu-west-2%2Fs3%2Faws4_request&X-Amz-Date=20240330T123148Z&X-Amz-Expires=5000&X-Amz-Signature=d79632e15fc99e4f12f4d7755e4c97f050fdd284d298a87eac2d7c534dd9533e&X-Amz-SignedHeaders=host&x-id=GetObject"
                       className="w-full h-full object-cover"
                       loading="lazy"
                     />
@@ -68,7 +69,7 @@ export default function page() {
                     style={{ left: 0, width: 500 }}
                   >
                     <img
-                      src="https://sothebysrealty.ae/cdn-cgi/image/format=auto,width=600,height=600,quality=90/https://sothebys-assets.s3.eu-west-2.amazonaws.com/555f1988-0360-49ea-bf53-1f1a0b6bc34f.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAVUGRI3I4W7JEORM2%2F20240330%2Feu-west-2%2Fs3%2Faws4_request&X-Amz-Date=20240330T123148Z&X-Amz-Expires=5000&X-Amz-Signature=fad0bc4f39bb531d935f8f0952f3c2ec9bb056a770cbc7c6b569cbc07a62061b&X-Amz-SignedHeaders=host&x-id=GetObject"
+                      src="https://sothebys-assets.s3.eu-west-2.amazonaws.com/555f1988-0360-49ea-bf53-1f1a0b6bc34f.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAVUGRI3I4W7JEORM2%2F20240330%2Feu-west-2%2Fs3%2Faws4_request&X-Amz-Date=20240330T123148Z&X-Amz-Expires=5000&X-Amz-Signature=fad0bc4f39bb531d935f8f0952f3c2ec9bb056a770cbc7c6b569cbc07a62061b&X-Amz-SignedHeaders=host&x-id=GetObject"
                       className="w-full h-full object-cover"
                       loading="lazy"
                     />
@@ -79,14 +80,14 @@ export default function page() {
                     style={{ left: 0, width: 500 }}
                   >
                     <img
-                      src="https://sothebysrealty.ae/cdn-cgi/image/format=auto,width=600,height=600,quality=90/https://sothebys-assets.s3.eu-west-2.amazonaws.com/18aab3a9-cb9b-482c-bb3e-81554b435902.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAVUGRI3I4W7JEORM2%2F20240330%2Feu-west-2%2Fs3%2Faws4_request&X-Amz-Date=20240330T123148Z&X-Amz-Expires=5000&X-Amz-Signature=7d1703d74aba5d62f6df614ffd2b5878a982ba6433b297e61753e9dbb0ee6a2e&X-Amz-SignedHeaders=host&x-id=GetObject"
+                      src="https://sothebys-assets.s3.eu-west-2.amazonaws.com/18aab3a9-cb9b-482c-bb3e-81554b435902.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAVUGRI3I4W7JEORM2%2F20240330%2Feu-west-2%2Fs3%2Faws4_request&X-Amz-Date=20240330T123148Z&X-Amz-Expires=5000&X-Amz-Signature=7d1703d74aba5d62f6df614ffd2b5878a982ba6433b297e61753e9dbb0ee6a2e&X-Amz-SignedHeaders=host&x-id=GetObject"
                       className="w-full h-full object-cover"
                       loading="lazy"
                     />
                   </div>
                 </div>
               </div>
-            </a>
+            </Link>
             <section className="p-5 space-y-4">
               <section className="space-y-3">
                 <div className="flex items-center gap-x-2 font-benton text-xs font-normal text-gray-500">
@@ -155,9 +156,9 @@ export default function page() {
             </section>
           </div>
           <div className="relative bg-white border border-gray-100 shadow-sm w-full h-full transition-all ease-in-out duration-300 hover:shadow-md hover:-translate-y-1">
-            <a
+            <Link
               area-label="Project Baccarat Hotel and Residences"
-              href="/project/baccarat-hotel-and-residences-downtown-dubai/"
+              href="/off-plan-projects/baccarat-hotel-and-residences-downtown-dubai/"
             >
               <div className="absolute ml-4 mt-5 z-10 flex flex-col items-start gap-y-2">
                 <div className="bg-white px-2 py-1 text-xs font-normal rounded-[4px] font-benton">
@@ -183,7 +184,7 @@ export default function page() {
                     style={{ left: 0, width: 500 }}
                   >
                     <img
-                      src="https://sothebysrealty.ae/cdn-cgi/image/format=auto,width=600,height=600,quality=90/https://sothebys-assets.s3.eu-west-2.amazonaws.com/addcb2d5-61e3-4b3c-be05-df64f6f00023.webp?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAVUGRI3I4W7JEORM2%2F20240330%2Feu-west-2%2Fs3%2Faws4_request&X-Amz-Date=20240330T123148Z&X-Amz-Expires=5000&X-Amz-Signature=6cdf4022ddaecddcd501753ea32117bbe038c4b16d5995680f94a1ffe951731d&X-Amz-SignedHeaders=host&x-id=GetObject"
+                      src="https://sothebys-assets.s3.eu-west-2.amazonaws.com/addcb2d5-61e3-4b3c-be05-df64f6f00023.webp?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAVUGRI3I4W7JEORM2%2F20240330%2Feu-west-2%2Fs3%2Faws4_request&X-Amz-Date=20240330T123148Z&X-Amz-Expires=5000&X-Amz-Signature=6cdf4022ddaecddcd501753ea32117bbe038c4b16d5995680f94a1ffe951731d&X-Amz-SignedHeaders=host&x-id=GetObject"
                       className="w-full h-full object-cover"
                       loading="lazy"
                     />
@@ -194,7 +195,7 @@ export default function page() {
                     style={{ left: 0, width: 500 }}
                   >
                     <img
-                      src="https://sothebysrealty.ae/cdn-cgi/image/format=auto,width=600,height=600,quality=90/https://sothebys-assets.s3.eu-west-2.amazonaws.com/3226829a-03d5-41df-b467-91cee534ad0a.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAVUGRI3I4W7JEORM2%2F20240330%2Feu-west-2%2Fs3%2Faws4_request&X-Amz-Date=20240330T123148Z&X-Amz-Expires=5000&X-Amz-Signature=d79632e15fc99e4f12f4d7755e4c97f050fdd284d298a87eac2d7c534dd9533e&X-Amz-SignedHeaders=host&x-id=GetObject"
+                      src="https://sothebys-assets.s3.eu-west-2.amazonaws.com/3226829a-03d5-41df-b467-91cee534ad0a.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAVUGRI3I4W7JEORM2%2F20240330%2Feu-west-2%2Fs3%2Faws4_request&X-Amz-Date=20240330T123148Z&X-Amz-Expires=5000&X-Amz-Signature=d79632e15fc99e4f12f4d7755e4c97f050fdd284d298a87eac2d7c534dd9533e&X-Amz-SignedHeaders=host&x-id=GetObject"
                       className="w-full h-full object-cover"
                       loading="lazy"
                     />
@@ -205,7 +206,7 @@ export default function page() {
                     style={{ left: 0, width: 500 }}
                   >
                     <img
-                      src="https://sothebysrealty.ae/cdn-cgi/image/format=auto,width=600,height=600,quality=90/https://sothebys-assets.s3.eu-west-2.amazonaws.com/555f1988-0360-49ea-bf53-1f1a0b6bc34f.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAVUGRI3I4W7JEORM2%2F20240330%2Feu-west-2%2Fs3%2Faws4_request&X-Amz-Date=20240330T123148Z&X-Amz-Expires=5000&X-Amz-Signature=fad0bc4f39bb531d935f8f0952f3c2ec9bb056a770cbc7c6b569cbc07a62061b&X-Amz-SignedHeaders=host&x-id=GetObject"
+                      src="https://sothebys-assets.s3.eu-west-2.amazonaws.com/555f1988-0360-49ea-bf53-1f1a0b6bc34f.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAVUGRI3I4W7JEORM2%2F20240330%2Feu-west-2%2Fs3%2Faws4_request&X-Amz-Date=20240330T123148Z&X-Amz-Expires=5000&X-Amz-Signature=fad0bc4f39bb531d935f8f0952f3c2ec9bb056a770cbc7c6b569cbc07a62061b&X-Amz-SignedHeaders=host&x-id=GetObject"
                       className="w-full h-full object-cover"
                       loading="lazy"
                     />
@@ -216,14 +217,14 @@ export default function page() {
                     style={{ left: 0, width: 500 }}
                   >
                     <img
-                      src="https://sothebysrealty.ae/cdn-cgi/image/format=auto,width=600,height=600,quality=90/https://sothebys-assets.s3.eu-west-2.amazonaws.com/18aab3a9-cb9b-482c-bb3e-81554b435902.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAVUGRI3I4W7JEORM2%2F20240330%2Feu-west-2%2Fs3%2Faws4_request&X-Amz-Date=20240330T123148Z&X-Amz-Expires=5000&X-Amz-Signature=7d1703d74aba5d62f6df614ffd2b5878a982ba6433b297e61753e9dbb0ee6a2e&X-Amz-SignedHeaders=host&x-id=GetObject"
+                      src="https://sothebys-assets.s3.eu-west-2.amazonaws.com/18aab3a9-cb9b-482c-bb3e-81554b435902.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAVUGRI3I4W7JEORM2%2F20240330%2Feu-west-2%2Fs3%2Faws4_request&X-Amz-Date=20240330T123148Z&X-Amz-Expires=5000&X-Amz-Signature=7d1703d74aba5d62f6df614ffd2b5878a982ba6433b297e61753e9dbb0ee6a2e&X-Amz-SignedHeaders=host&x-id=GetObject"
                       className="w-full h-full object-cover"
                       loading="lazy"
                     />
                   </div>
                 </div>
               </div>
-            </a>
+            </Link>
             <section className="p-5 space-y-4">
               <section className="space-y-3">
                 <div className="flex items-center gap-x-2 font-benton text-xs font-normal text-gray-500">

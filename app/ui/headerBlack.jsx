@@ -53,6 +53,12 @@ export default function HeaderBlack() {
           </Link>
           <Link
             className="text-sm uppercase hover:text-gray-400 transition-all"
+            href="/off-plan-projects"
+          >
+            off plan projects
+          </Link>
+          <Link
+            className="text-sm uppercase hover:text-gray-400 transition-all"
             href="/"
           >
             About
@@ -72,7 +78,7 @@ export default function HeaderBlack() {
         </div>
       </nav>
       <nav
-        className={`absolute top-0 left-0 w-full h-screen bg-white text-black ${
+        className={`absolute top-0 left-0 w-full h-screen z-20 bg-white text-black ${
           menu ? "block" : "hidden"
         }`}
       >
@@ -83,11 +89,24 @@ export default function HeaderBlack() {
           close
         </button>
         <div className="flex items-center justify-center flex-col gap-16 w-full h-full">
-          <Link href="/">Home</Link>
-          <Link href="/">Developments</Link>
-          <Link href="/">About</Link>
-          <Link href="/">Services</Link>
-          <Link href="/">Achievements</Link>
+          <Link href="/" className="uppercase">
+            Home
+          </Link>
+          <Link href="/" className="uppercase">
+            Developments
+          </Link>
+          <Link href="/off-plan-projects" className="uppercase">
+            off plan projects
+          </Link>
+          <Link href="/" className="uppercase">
+            About
+          </Link>
+          <Link href="/" className="uppercase">
+            Services
+          </Link>
+          <Link href="/" className="uppercase">
+            Achievements
+          </Link>
         </div>
       </nav>
     </header>
