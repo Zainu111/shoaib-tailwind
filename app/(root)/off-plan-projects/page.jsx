@@ -27,13 +27,14 @@ export default async function page() {
             </span>
           </div>
         </div>
-        {data?.length > 0
-          ? data?.map((project, key) => (
-              <div
-                key={key}
-                className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-x-[43px] gap-y-[20px] md:gap-y-[35px] xl:gap-y-[50px]"
-              >
-                <div className="relative bg-white border border-gray-100 shadow-sm w-full h-full transition-all ease-in-out duration-300 hover:shadow-md hover:-translate-y-1">
+
+        <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-x-[43px] gap-y-[20px] md:gap-y-[35px] xl:gap-y-[50px]">
+          {data?.length > 0
+            ? data?.map((project, key) => (
+                <div
+                  key={key}
+                  className="relative bg-white border border-gray-100 shadow-sm w-full h-full transition-all ease-in-out duration-300 hover:shadow-md hover:-translate-y-1"
+                >
                   <Link
                     area-label={project.title}
                     href={`/off-plan-projects/${project.slug.current}`}
@@ -125,9 +126,9 @@ export default async function page() {
                     </div>
                   </section>
                 </div>
-              </div>
-            ))
-          : " Projects not available"}
+              ))
+            : " Projects not available"}
+        </div>
       </section>
     </>
   );
