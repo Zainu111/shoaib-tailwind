@@ -49,8 +49,8 @@ export default async function page() {
                       </div>
                     </div>
 
-                    <div className="swiper swiper-virtual swiper-initialized swiper-horizontal swiper-watch-progress w-full h-[350px]">
-                      <div className="swiper-wrapper">
+                    <div className="swiper swiper-virtual swiper-initialized swiper-horizontal swiper-watch-progress w-full ">
+                      <div >
                         <div
                           
                         >
