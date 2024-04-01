@@ -32,9 +32,12 @@ export default function HeaderBlack() {
           <button className="btn md:hidden" onClick={() => setMenu(true)}>
             menu
           </button>
-          <button className="btn hidden md:block md:px-8 md:py-4">
+          <Link
+            href="/contact-us"
+            className="btn hidden md:block md:px-8 md:py-4"
+          >
             contact now
-          </button>
+          </Link>
         </div>
       </div>
       <nav className="border-t py-4 hidden md:block">

@@ -1,6 +1,5 @@
 "use server";
 import { client } from "@/sanity/lib/client";
-import { revalidatePath } from "next/cache";
 
 export const createEnquiry = async (prevState, formData) => {
   const fullName = formData.get("fullName");
@@ -20,10 +19,14 @@ export const createEnquiry = async (prevState, formData) => {
     email,
     phone,
     message,
-    offPlanProject: {
-      _ref: id,
-    },
   };
+
+  // Conditionally add the offPlanProject field
+  if (id !== "no") {
+    rawFormData.offPlanProject = {
+      _ref: id,
+    };
+  }
 
   try {
     const response = await client.create(rawFormData);

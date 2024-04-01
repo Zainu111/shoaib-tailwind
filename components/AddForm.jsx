@@ -17,7 +17,7 @@ function SubmitButton() {
     <button
       type="submit"
       aria-disabled={pending}
-      className="button w-fit px-7 py-3 !border-[#888888] border"
+      className="button w-fit px-7 py-3 !border-[#888888] border bg-black text-white"
       disabled={pending}
     >
       {pending ? "Sending Enquiry" : "  Submit enquiry"}
@@ -32,9 +32,9 @@ export function AddForm({ id }) {
   useEffect(() => {
     if (state.message) {
       toast({
-        title: "Enquiry About [product name]",
+        title: "Enquiry",
         description:
-          "Thank you for your interest in [Product Name]! Your enquiry has been successfully submitted. We'll get back to you shortly.",
+          "Thank you for your interest! Your enquiry has been successfully submitted. We'll get back to you shortly.",
       });
       state.message = false;
       formRef.current.reset();

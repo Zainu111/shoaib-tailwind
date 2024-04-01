@@ -101,7 +101,7 @@ export default async function page() {
           {data.length > 0 &&
             data.map((item, key) => (
               <tr key={key}>
-                <td className="px-6 py-4">{item.offPlanProject.title}</td>
+                <td className="px-6 py-4">{item.offPlanProject?.title ? item.offPlanProject?.title : "From contact us page"}</td>
                 <td className="px-6 py-4">{item.fullName}</td>
                 <td className="px-6 py-4">{item.email}</td>
                 <td className="px-6 py-4">{item.phone}</td>
