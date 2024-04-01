@@ -45,6 +45,7 @@ export function AddForm({ id }) {
       action={formAction}
       className="w-full max-w-[461px] text-[#2A2A2A]"
       ref={formRef}
+      id="contact"
     >
       <input type="hidden" name="id" value={id} />
       <input

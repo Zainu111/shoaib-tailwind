@@ -97,17 +97,12 @@ export default async function page({ params }) {
                       <span className="hidden sm:block">Gallery</span> (
                       <div>{data.images.length}</div>)
                     </div>
-                    <button
-                      type="button"
-                      aria-haspopup="dialog"
-                      aria-expanded="false"
-                      aria-controls="radix-:R2kp6m:"
-                      data-state="closed"
-                      id="request-information"
-                      className="button !py-[7px] !px-[20px] !border-[#888888] border"
+                    <Link
+                      href="#contact"
+                      className="button !py-[7px] !px-[20px] !border-[#888888] border text-sm"
                     >
                       Request information
-                    </button>
+                    </Link>
                     <div className="flex items-center justify-center ">
                       <button
                         type="button"
@@ -433,7 +428,9 @@ export default async function page({ params }) {
           </div>
         </div>
       ) : (
-        <div className="w-full h-screen flex items-center justify-center">No Data found</div>
+        <div className="w-full h-screen flex items-center justify-center">
+          No Data found
+        </div>
       )}
     </>
   );
