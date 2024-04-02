@@ -16,9 +16,9 @@ export default function page() {
           alt="banner"
         />
       </div>
-      <div className="max-w-3xl mx-auto my-16 flex flex-col gap-4 px-4">
+      <div className="max-w-3xl mx-auto my-16 flex flex-col gap-4">
         <h2 className="font-medium text-2xl text-center tracking-widest">
-          It's about the journey, not just about the destination
+          SPACIOUS RETREATS
         </h2>
         <p className="text-sm text-center font-normal">
           Gaze across the uninterrupted horizon from your private water villa,
@@ -53,9 +53,10 @@ export default function page() {
           </div>
         </div>
       </div>
-
+     
       <Developments />
       {/* <About /> */}
+
     </>
   );
 }
