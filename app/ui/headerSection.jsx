@@ -32,7 +32,10 @@ export default function HeaderSection() {
           <button className="btn md:hidden" onClick={() => setMenu(true)}>
             menu
           </button>
-          <Link href="/contact-us" className="btn hidden md:block md:px-8 md:py-4">
+          <Link
+            href="/contact-us"
+            className="btn hidden md:block md:px-8 md:py-4"
+          >
             contact now
           </Link>
         </div>
@@ -63,12 +66,31 @@ export default function HeaderSection() {
           >
             About
           </Link>
-          <Link
-            className="text-sm uppercase hover:text-gray-400 transition-all"
-            href="/"
-          >
+          <button className="text-sm uppercase hover:text-gray-400 transition-all relative group">
             Services
-          </Link>
+            <div className="absolute left-0 z-10">
+              <div className="mt-6 bg-white w-max shadow-md hidden group-hover:flex  py-4 transition-all items-start flex-col gap-4 px-2 rounded">
+                <Link
+                  className="text-sm uppercase text-black hover:text-gray-400 transition-all"
+                  href="/services/professional-services"
+                >
+                  Professional Services
+                </Link>
+                <Link
+                  className="text-sm uppercase text-black hover:text-gray-400 transition-all"
+                  href="/services/luxury-pickup"
+                >
+                  Luxury Pickup
+                </Link>
+                <Link
+                  className="text-sm uppercase text-black hover:text-gray-400 transition-all"
+                  href="/services/private-jet"
+                >
+                  Private Jet
+                </Link>
+              </div>
+            </div>
+          </button>
           <Link
             className="text-sm uppercase hover:text-gray-400 transition-all"
             href="/"
@@ -78,7 +100,7 @@ export default function HeaderSection() {
         </div>
       </nav>
       <nav
-        className={`absolute top-0 left-0 w-full h-screen bg-white text-black ${
+        className={`fixed top-0 left-0 w-full h-screen bg-white text-black ${
           menu ? "block" : "hidden"
         }`}
       >
@@ -88,13 +110,47 @@ export default function HeaderSection() {
         >
           close
         </button>
-        <div className="flex items-center justify-center flex-col gap-16 w-full h-full">
-          <Link href="/">Home</Link>
-          <Link href="/">Developments</Link>
-          <Link href="/off-plan-projects">projects</Link>
-          <Link href="/">About</Link>
-          <Link href="/">Services</Link>
-          <Link href="/">Achievements</Link>
+        <div className="flex items-center justify-center flex-col  w-full h-screen gap-4">
+          <Link href="/" className="uppercase">
+            Home
+          </Link>
+          <Link href="/" className="uppercase">
+            Developments
+          </Link>
+          <Link href="/off-plan-projects" className="uppercase">
+            projects
+          </Link>
+          <Link href="/" className="uppercase">
+            About
+          </Link>
+          <button className="text-sm uppercase hover:text-gray-400 transition-all group">
+            Services
+            <div className="h-0 overflow-hidden group-hover:h-max">
+              <div className="mt-4 bg-white w-max  flex   transition-all items-center flex-col rounded gap-4">
+                <Link
+                  className="text-sm uppercase text-black hover:text-gray-400 transition-all"
+                  href="/services/professional-services"
+                >
+                  Professional Services
+                </Link>
+                <Link
+                  className="text-sm uppercase text-black hover:text-gray-400 transition-all"
+                  href="/services/luxury-pickup"
+                >
+                  Luxury Pickup
+                </Link>
+                <Link
+                  className="text-sm uppercase text-black hover:text-gray-400 transition-all"
+                  href="/services/private-jet"
+                >
+                  Private Jet
+                </Link>
+              </div>
+            </div>
+          </button>
+          <Link href="/" className="uppercase">
+            Achievements
+          </Link>
         </div>
       </nav>
     </header>
