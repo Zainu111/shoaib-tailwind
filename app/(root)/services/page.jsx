@@ -10,7 +10,7 @@ export default function page() {
       <HeaderSection />
       <div className=" w-full pt-[50%] md:pt-[40%] relative">
         <Image
-          src="/assets/service-banner.png"
+          src="/assets/bacc.png"
           className="object-cover"
           fill={true}
           alt="banner"
@@ -42,13 +42,13 @@ export default function page() {
               personal service. This is living at its very best.
             </p>
           </div>
-          <div className="basis-[40%] h-96 overflow-hidden -mt-16">
+          <div className="basis-[40%] overflow-hidden -mt-16">
             <Image
-              src="/assets/2cars.jpg"
-              className="object-cover"
+              src="/assets/about-img.jpg"
+              className="object-contain"
               width={800}
-              height={200}
-              alt="car1"
+              height={600}
+              alt="shaoib shahid"
             />
           </div>
         </div>
