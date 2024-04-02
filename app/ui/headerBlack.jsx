@@ -62,7 +62,7 @@ export default function HeaderBlack() {
           </Link>
           <Link
             className="text-sm uppercase hover:text-gray-400 transition-all"
-            href="/"
+            href="/about"
           >
             About
           </Link>
@@ -98,7 +98,7 @@ export default function HeaderBlack() {
           <Link href="/off-plan-projects" className="uppercase">
             projects
           </Link>
-          <Link href="/" className="uppercase">
+          <Link href="/about" className="uppercase">
             About
           </Link>
           <Link href="/services" className="uppercase">
