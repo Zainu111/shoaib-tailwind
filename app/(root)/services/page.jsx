@@ -1,3 +1,4 @@
+import About from "@/app/ui/about";
 import Developments from "@/app/ui/developments";
 import HeaderSection from "@/app/ui/headerSection";
 import Image from "next/image";
@@ -54,6 +55,8 @@ export default function page() {
       </div>
      
       <Developments />
+      <About />
+
     </>
   );
 }
