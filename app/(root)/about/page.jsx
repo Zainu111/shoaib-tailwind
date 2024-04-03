@@ -18,7 +18,12 @@ export default function page() {
                         <div className="ip-about-sec1-text-title wow fadeInRight">
                           Shoaib
                           <div>Shahid</div>
+                          <div className="!text-xs !m-0 !p-0 max-w-md !font-normal">
+                            Bringing Expertise to World's Elite with Dubai
+                            Sotheby's International Realty
+                          </div>
                         </div>
+
                         <div className="ip-about-sec1-text-excerpt wow fadeInRight">
                           <h1>About Shoaib Shahid</h1>
                           Shoaib Sahid is a highly esteemed global real estate
@@ -45,6 +50,149 @@ export default function page() {
                       </div>
                     </div>
                   </div>
+                  <section className="pt-8 md:py-12 text-center flex items-center">
+                    <div className="container mx-auto">
+                      <div className="text-center z-10 mx-auto max-w-screen-lg">
+                        <h1 className="text-4xl md:text-5xl font-normal mb-4 md:mb-10 text-sothebys-blue">
+                          Dubai Sotheby's International Realty ®
+                        </h1>
+                      </div>
+                      <div className="flex items-center md:justify-left">
+                        <hr className="hidden md:block mr-8 w-[200px] border-sothebys-blue border-b-1" />
+                        <div className="font-acta text-md md:text-xl text-left font-normal md:max-w-4xl p-2 md:p-0">
+                          Founded in 1976, <i>Sotheby's International Realty</i>{" "}
+                          has always been a highly sought-after name for the
+                          world's wealthiest individuals when it comes to luxury
+                          property and today our ever-expanding network includes
+                          over 26,500 property consultants in 1,115 offices
+                          across 84 countries and territories. With our
+                          exclusive connections and international reach, we are
+                          the ideal partner for buying and selling the world's
+                          most beautiful homes.
+                        </div>
+                      </div>
+                    </div>
+                  </section>
+                  <section className="md:py-12 text-center m-auto">
+                    <div className="container mx-auto flex justify-center items-center py-12 md:py-2">
+                      <div className="w-1/2 pl-2 md:pl-0 md:pr-8">
+                        <h2 className="text-2xl md:text-3xl  mb-4 text-left font-normal text-sothebys-blue">
+                          Global Reach, Local Expertise
+                        </h2>
+                        <div className="font-acta font-normal text-md md:text-lg text-gray-700 text-left md:max-w-lg">
+                          <div className="">
+                            Offering unrivalled access to distinctive properties
+                            and qualified people around the world. Delivering
+                            exceptional service in the luxury real estate market
+                            with a trusted global network.
+                          </div>
+                        </div>
+                      </div>
+                      <div className="w-1/2 pl-8">
+                        <div className="grid md:grid-cols-2 gap-2 md:gap-4 text-left text-sothebys-blue">
+                          <div className="mb-4">
+                            <div className="text-2xl md:text-4xl font-acta font-normal">
+                              1,115
+                            </div>
+                            <div className="text-xs md:text-md ">
+                              OFFICES WORLDWIDE
+                            </div>
+                          </div>
+                          <div className="mb-4">
+                            <div className="text-2xl md:text-4xl font-acta font-normal">
+                              26,500
+                            </div>
+                            <div className="text-xs md:text-md ">
+                              SALES ASSOCIATES
+                            </div>
+                          </div>
+                          <div className="mb-4">
+                            <div className="text-2xl md:text-4xl font-acta font-normal">
+                              84
+                            </div>
+                            <div className="text-xs md:text-md ">
+                              COUNTRIES &amp; TERRITORIES
+                            </div>
+                          </div>
+                          <div className="mb-4">
+                            <div className="text-2xl md:text-4xl font-acta font-normal">
+                              $143 Billion
+                            </div>
+                            <div className="text-xs md:text-md ">
+                              ANNUAL SALES
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </section>
+                  <section className="py-2">
+                    <div className="container mx-auto grid grid-cols-1 md:grid-cols-3 gap-8 bg-[#212121]">
+                      <div className="md:col-span-2">
+                        <img
+                          src="/assets/aabout.jpg"
+                          alt="Image"
+                          className="w-full h-auto"
+                        />
+                      </div>
+                      <div className="md:col-span-1 flex flex-col justify-center text-center md:text-left">
+                        <h2 className="text-3xl md:text-4xl font-normal mb-2 text-[#ffffff]">
+                          Unrivalled <span className="">Expertise</span>{" "}
+                          Wherever In The World You Need It To Be
+                        </h2>
+                        <div className="p-2 md:p-0 font-benton my-2 text-left text-white text-sm">
+                          <i>Dubai Sotheby's International Realty</i> is part of
+                          one of the world’s most respected luxury real estate
+                          brands and is committed to delivering extraordinary
+                          results through our local expertise, global footprint
+                          and exclusive network.
+                        </div>
+                        <div className="p-2 md:p-0 font-benton text-left text-white text-sm">
+                          As well as a distinguished service and our commitment
+                          to bespoke, individualised support for each client, we
+                          also employ superior strategic marketing and state of
+                          the art technology solutions, so that your luxury
+                          property is put front, right and center, capturing the
+                          attention of buyers that matter most.
+                        </div>
+                      </div>
+                    </div>
+                  </section>
+                  <section className="py-2">
+                    <div className="container mx-auto grid grid-cols-1 md:grid-cols-3 gap-8 bg-[#212121]">
+                      <div className="md:col-span-1 flex flex-col justify-center text-center md:text-left">
+                        <h2 className="text-3xl md:text-4xl font-normal mb-2 text-[#ffffff]">
+                          Expertise You Can Trust. Setting standards.
+                        </h2>
+                        <div className="p-2 md:p-0 font-benton my-2 text-left text-white text-sm">
+                          The expert team at{" "}
+                          <i>Dubai Sotheby's International Realty</i> brings a
+                          wealth of knowledge and experience to the field of
+                          luxury real estate. In addition to their comprehensive
+                          capabilities in local and international residential
+                          sales, they can provide assistance in a variety of
+                          areas including lettings, property management, new
+                          development sales, investment and portfolio
+                          management.
+                        </div>
+                        <div className="p-2 md:p-0 font-benton text-left text-white text-sm">
+                          At <i>Dubai Sotheby's International Realty</i>, we
+                          believe in taking a different approach to luxury real
+                          estate; one in which the client is at the heart of
+                          everything we do. We won't give up until you are
+                          completely happy.
+                        </div>
+                      </div>
+                      <div className="md:col-span-2">
+                        <img
+                          src="https://d196t24mb8gljn.cloudfront.net/sothebys-assets/about-us-b.png"
+                          alt="Image"
+                          className="w-full h-auto"
+                        />
+                      </div>
+                    </div>
+                  </section>
+
                   <div className="ip-about-sec2 flex justify-between">
                     <div className=" col-left flex justify-end items-end">
                       <div className="">
@@ -106,21 +254,15 @@ export default function page() {
                     <div className="ip-about-sec3-inner-wrap flex">
                       <div className="ip-about-sec3-inner-col col-left">
                         <div className="ip-about-sec3-text">
-                          <div
-                            className="ip-about-sec3-text-heading wow fadeInUp"
-                           
-                          >
+                          <div className="ip-about-sec3-text-heading wow fadeInUp">
                             Media Mogul
                           </div>
-                          <div
-                            className="ip-about-sec3-text-excerpt wow fadeInLeft"
-                          
-                          >
+                          <div className="ip-about-sec3-text-excerpt wow fadeInLeft">
                             <p>
-                              Shaoib Shahid is known as a star of Bravo’s
+                              Shaoib Shahid is known as a star of Bravo's
                               Emmy-nominated Million Dollar Listing New York,
                               its spin-off show Sell It Like Shaoib Shahid, and
-                              for his appearance in the film While We’re Young
+                              for his appearance in the film While We're Young
                               alongside Ben Stiller, Naomi Watts, and Adam
                               Driver.{" "}
                             </p>
@@ -159,23 +301,17 @@ export default function page() {
                         </div>
                       </div>
                       <div className="sec-col right">
-                        <div
-                          className="ip-about-sec4-text-heading wow fadeInUp"
-                        
-                        >
+                        <div className="ip-about-sec4-text-heading wow fadeInUp">
                           Community Leader
                         </div>
-                        <div
-                          className="ip-about-sec4-text-excerpt wow fadeInLeft"
-                         
-                        >
+                        <div className="ip-about-sec4-text-excerpt wow fadeInLeft">
                           <p>
                             Shaoib Shahid is focused on developing inspiring
                             sales and lifestyle communities through education
                             and writing. His best-selling book and innovative
                             real estate sales course of the same name, Sell It
                             Like Shaoib Shahid, are inside looks at all of
-                            Shaoib Shahid’s sales strategies and techniques.{" "}
+                            Shaoib Shahid's sales strategies and techniques.{" "}
                           </p>
                           <p>
                             Big Money Energy, which began as a weekly newsletter
@@ -203,16 +339,10 @@ export default function page() {
                   <div className="new-ip-about-sec5">
                     <div className="sec-inner-wrapper">
                       <div className="sec-col right">
-                        <div
-                          className="ip-about-sec5-text-heading wow fadeInUp"
-                        
-                        >
+                        <div className="ip-about-sec5-text-heading wow fadeInUp">
                           Personal Life
                         </div>
-                        <div
-                          className="ip-about-sec5-text-excerpt wow fadeInLeft"
-                         
-                        >
+                        <div className="ip-about-sec5-text-excerpt wow fadeInLeft">
                           <p>
                             Lorem ipsum dolor sit amet consectetur adipisicing
                             elit. Eveniet repellendus explicabo enim non, labore

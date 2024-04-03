@@ -5,18 +5,25 @@ import { LuPhone } from "react-icons/lu";
 import { MdOutlineMailOutline } from "react-icons/md";
 import { FaWhatsapp } from "react-icons/fa";
 import { ActaDisplay } from "../fonts";
+import Image from "next/image";
+import Sothebys from "../icons/Sothebys";
 
 export default function HeaderBlack() {
   const [menu, setMenu] = useState(false);
   return (
     <header className="header-black">
       <div className="w-full flex items-center justify-between pt-4 py-2">
-        <Link
-          href="/"
-          className={`text-xl lg:text-2xl ${ActaDisplay.className}`}
-        >
-          Shoaib <span className="font-semibold">Shahid.</span>
-        </Link>
+        <div className="flex flex-col">
+          <Link
+            href="/"
+            className={`text-xl lg:text-2xl ${ActaDisplay.className}`}
+          >
+            Shoaib <span className="font-semibold">Shahid.</span>
+          </Link>
+          <span className="text-sm flex items-center">
+            Associate director at Sotheby's
+          </span>
+        </div>
         <div className="flex gap-4 items-center">
           <div className="hidden md:flex gap-4">
             <Link href="https://wa.me/+971527180606">
