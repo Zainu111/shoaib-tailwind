@@ -9,7 +9,7 @@ export default function Developments() {
     <section className="py-6 px-4 bg-white">
       <div className="md:px-16 mx-auto">
         <div className="px-5 text-center md:max-w-2xl mx-auto">
-          <h2 className="text-xl md:text-3xl mb-4 uppercase">
+          <h2 className="text-xl md:text-4xl mb-4 uppercase text-sothebys-blue">
             New Developments
           </h2>
           <p className="text-sm">
@@ -30,8 +30,10 @@ export default function Developments() {
               />
             </div>
             <div className="flex flex-col flex-grow flex-shrink pt-4 gap-3 justify-between ">
-              <h3 className="text-base">
-                <span className="font-semibold">Discover Palm Jabal Ali:</span>{" "}
+              <h3 className="text-base font-normal text-black ">
+                <span className="font-semibold text-sothebys-blue">
+                  Discover Palm Jabal Ali:
+                </span>{" "}
                 The Ultimate Destination for High-Profile Luxury
               </h3>
               <p className="text-sm mb-2">
@@ -58,8 +60,8 @@ export default function Developments() {
               />
             </div>
             <div className="flex flex-col flex-grow flex-shrink pt-4 gap-3 justify-between ">
-              <h3 className="text-base">
-                <span className="font-semibold">
+              <h3 className="text-base font-normal text-black ">
+                <span className="font-semibold text-sothebys-blue">
                   Atlantis, The Royal Residences:
                 </span>{" "}
                 Where Luxury Meets Iconic Architecture in Dubai
@@ -89,8 +91,8 @@ export default function Developments() {
               />
             </div>
             <div className="flex flex-col flex-grow flex-shrink pt-4 gap-3 justify-between ">
-              <h3 className="text-base">
-                <span className="font-semibold">Baccarat Residences:</span>{" "}
+              <h3 className="text-base font-normal text-black ">
+                <span className="font-semibold text-sothebys-blue">Baccarat Residences:</span>{" "}
                 Exquisite Luxury Living in Downtown Dubai
               </h3>
               <p className="text-sm mb-2">

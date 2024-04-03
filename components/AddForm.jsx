@@ -17,7 +17,7 @@ function SubmitButton({text}) {
     <button
       type="submit"
       aria-disabled={pending}
-      className="button w-fit px-7 py-3 !border-[#888888] border bg-black text-white disabled:bg-gray-800"
+      className="py-3 px-9 max-w-max font-benton text-bkack border transition-all duration-300 hover:bg-sothebys-blue hover:border-sothebys-blue hover:text-white"
       disabled={pending}
     >
       {text}

@@ -1,5 +1,6 @@
 import About from "@/app/ui/about";
 import Developments from "@/app/ui/developments";
+import Footer from "@/app/ui/footer";
 import HeaderSection from "@/app/ui/headerSection";
 import Image from "next/image";
 import React from "react";
@@ -18,7 +19,7 @@ export default function page() {
         />
       </div>
       <div className="max-w-3xl mx-auto my-16 flex flex-col gap-4">
-        <h2 className="font-medium text-2xl text-center tracking-widest">
+        <h2 className="font-medium text-2xl text-center tracking-widest text-sothebys-blue">
           SPACIOUS RETREATS
         </h2>
         <p className="text-sm text-center font-normal">
@@ -32,7 +33,7 @@ export default function page() {
       </div>
       <div className="py-16">
         <div className="max-w-5xl  mx-auto  flex  ">
-          <div className="basis-[60%] p-16 bg-gray-100 relative after:content-[''] after:absolute after:-right-36 after:-z-10 after:top-0 after:w-36 after:h-full after:bg-gray-100">
+          <div className="basis-[60%] p-16 bg-sothebys-blue text-white relative after:content-[''] after:absolute after:-right-36 after:-z-10 after:top-0 after:w-36 after:h-full after:bg-sothebys-blue">
             <h2 className="text-2xl mb-4">EXCLUSIVELY YOURS</h2>
             <p className="font-benton font-normal">
               Nowhere else do the wonders of the planet’s most incredible
@@ -54,10 +55,10 @@ export default function page() {
           </div>
         </div>
       </div>
-     
+
       <Developments />
       {/* <About /> */}
-
+      <Footer />
     </>
   );
 }

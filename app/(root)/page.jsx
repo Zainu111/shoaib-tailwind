@@ -17,14 +17,13 @@ export default function Home() {
     <>
       <HeaderSection />
       <Banner />
-      
       <Developments />
       <About />
       <Featured />
       <Featured1 />
       <Achievements />
       <Featured2 />
-      <CallToAction />
+      <Footer />
     </>
   );
 }

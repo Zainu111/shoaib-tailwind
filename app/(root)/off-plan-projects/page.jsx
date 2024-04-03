@@ -1,3 +1,4 @@
+import Footer from "@/app/ui/footer";
 import HeaderBlack from "@/app/ui/headerBlack";
 import { client } from "@/sanity/lib/client";
 import { urlForImage } from "@/sanity/lib/image";
@@ -20,7 +21,7 @@ export default async function page() {
       <section className="container !mx-auto my-4">
         <div className="py-3 md:py-6 flex items-center justify-between font-benton">
           <div className="flex items-center text-sm font-normal text-sothebys-blue">
-            <h1 className="font-benton font-medium text-lg">
+            <h1 className="font-benton font-medium text-lg text-sothebys-blue">
               Off-Plan Projects in UAE
             </h1>
             <span className="font-medium text-gray-400 text-base ml-2">
@@ -42,7 +43,7 @@ export default async function page() {
                   >
                     <div className="absolute ml-4 mt-5 z-10 flex flex-col items-start gap-y-2">
                       {project?.handover > 0 && (
-                        <div  className="bg-white px-2 py-1 text-xs font-normal rounded-[4px] font-benton">
+                        <div className="bg-white px-2 py-1 text-xs font-normal rounded-[4px] font-benton">
                           {project.handover}
                         </div>
                       )}
@@ -74,10 +75,10 @@ export default async function page() {
                           </div>
                         ))}
                       </div>
-                      <h3 className="text-3xl h-[72px] line-clamp-2 font-normal">
+                      <h3 className="text-3xl h-[72px] line-clamp-2 font-normal text-sothebys-blue">
                         {project.title}
                       </h3>
-                      {project.price > 0 && (
+                      {project?.price && (
                         <div className="font-acta">
                           Starting Price {project.price}
                         </div>
@@ -125,6 +126,7 @@ export default async function page() {
             : " Projects not available"}
         </div>
       </section>
+      <Footer />
     </>
   );
 }

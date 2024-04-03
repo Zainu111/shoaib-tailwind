@@ -29,7 +29,10 @@ export default function Featured1() {
         <div className="flex flex-col gap-8 items-center lg:px-8 justify-center ">
           <Baccarat />
           <p className="text-sm">Excellence that endures</p>
-          <Link className="btn-border" href="#">
+          <Link
+            className="py-3 px-9 max-w-max font-benton text-bkack border border-black transition-all duration-300 hover:bg-sothebys-blue hover:border-sothebys-blue hover:text-white"
+            href="#"
+          >
             Explore
           </Link>
         </div>

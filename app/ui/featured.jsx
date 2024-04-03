@@ -1,15 +1,15 @@
 import Image from "next/image";
 import Link from "next/link";
 import React from "react";
-import service1 from "@/public/assets/services.jpg"
-import services2 from "@/public/assets/services2.jpg"
+import service1 from "@/public/assets/services.jpg";
+import services2 from "@/public/assets/services2.jpg";
 export default function Featured() {
   return (
     <section className="px-4 py-16 bg-white">
       <div className="lg:max-w-4xl mx-auto flex flex-col gap-4 md:flex-row justify-between">
         <div className="basis-3/5">
           <h2 className="text-lg mb-8">
-            <span className="font-semibold">DISCOVER THE ACRES:</span> WHERE
+            <span className="font-semibold text-sothebys-blue">DISCOVER THE ACRES:</span> WHERE
             NATURE EMBRACES YOUR HOME
           </h2>
           <div className="pt-[133%] relative">
@@ -37,7 +37,10 @@ export default function Featured() {
             experience, oversaw $1.5B property sales, specializes in off-plan
             properties, luxury real estate, and prestigious locations.
           </p>
-          <Link className="btn-border" href="#">
+          <Link
+            className="py-3 px-9 max-w-max font-benton text-bkack border border-black transition-all duration-300 hover:bg-sothebys-blue hover:border-sothebys-blue hover:text-white"
+            href="#"
+          >
             Explore
           </Link>
         </div>

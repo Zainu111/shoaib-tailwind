@@ -6,6 +6,7 @@ import { PortableText } from "@portabletext/react";
 import { client } from "@/sanity/lib/client";
 import Link from "next/link";
 import { AddForm } from "@/components/AddForm";
+import Footer from "@/app/ui/footer";
 export const revalidate = 0; // revalidate at most 30 seconds
 
 async function getData(slug) {
@@ -101,7 +102,7 @@ export default async function page({ params }) {
                     </div>
                     <Link
                       href="#contact"
-                      className="button !py-[7px] !px-[20px] !border-[#888888] border text-sm"
+                      className="text-sm py-3 px-9 max-w-max font-benton text-bkack border border-black transition-all duration-300 hover:bg-sothebys-blue hover:border-sothebys-blue hover:text-white"
                     >
                       Request information
                     </Link>
@@ -380,6 +381,8 @@ export default async function page({ params }) {
           No Data found
         </div>
       )}
+    <Footer />
     </>
+    
   );
 }

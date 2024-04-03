@@ -18,7 +18,7 @@ export default function HeaderBlack() {
             href="/"
             className={`text-xl lg:text-2xl ${ActaDisplay.className}`}
           >
-            Shoaib <span className="font-semibold">Shahid.</span>
+            Shoaib <span className="font-semibold ">Shahid.</span>
           </Link>
           <span className="text-sm flex items-center">
             Associate director at Sotheby's

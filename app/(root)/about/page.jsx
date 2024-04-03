@@ -1,3 +1,4 @@
+import Footer from "@/app/ui/footer";
 import HeaderBlack from "@/app/ui/headerBlack";
 import Image from "next/image";
 import React from "react";
@@ -17,7 +18,7 @@ export default function page() {
                       <div className="ip-about-sec1-text">
                         <div className="ip-about-sec1-text-title wow fadeInRight">
                           Shoaib
-                          <div>Shahid</div>
+                          <div className="!text-sothebys-blue">Shahid</div>
                           <div className="!text-xs !m-0 !p-0 max-w-md !font-normal">
                             Bringing Expertise to World's Elite with Dubai
                             Sotheby's International Realty
@@ -373,6 +374,7 @@ export default function page() {
           <div className="clearfix" />
         </div>{" "}
       </div>
+      <Footer />
     </>
   );
 }
