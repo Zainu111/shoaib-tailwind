@@ -160,6 +160,13 @@ export default function page() {
                   </section>
                   <section className="py-2">
                     <div className="container mx-auto grid grid-cols-1 md:grid-cols-3 gap-8 border border-sothebys-blue">
+                      <div className="md:col-span-2">
+                        <img
+                          src="https://d196t24mb8gljn.cloudfront.net/sothebys-assets/about-us-1.jpg"
+                          alt="Image"
+                          className="w-full h-auto"
+                        />
+                      </div>
                       <div className="md:col-span-1 flex flex-col justify-center text-center md:text-left">
                         <h2 className="text-3xl md:text-4xl font-normal mb-2 ">
                           Provenance To Be <br /> Proud Of
@@ -173,13 +180,6 @@ export default function page() {
                           partner who can provide best-in-class exposure and
                           unmatched service.
                         </div>
-                      </div>
-                      <div className="md:col-span-2">
-                        <img
-                          src="https://d196t24mb8gljn.cloudfront.net/sothebys-assets/about-us-1.jpg"
-                          alt="Image"
-                          className="w-full h-auto"
-                        />
                       </div>
                     </div>
                   </section>
