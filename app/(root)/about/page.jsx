@@ -185,37 +185,13 @@ export default function page() {
                   </section>
 
                   <section className="py-2">
-                    <div className="container mx-auto grid grid-cols-1 md:grid-cols-3 gap-8 bg-[#112548]">
-                      <div className="md:col-span-2">
-                        <img
-                          src="https://d196t24mb8gljn.cloudfront.net/sothebys-assets/about-us-b.png"
-                          alt="Image"
-                          className="w-full h-auto"
-                        />
-                      </div>
-                      <div className="md:col-span-1 flex flex-col justify-center text-center md:text-left">
-                        <h2 className="text-3xl md:text-4xl font-normal mb-2 text-[#ffffff]">
-                          Expertise You Can Trust. Setting standards.
-                        </h2>
-                        <div className="p-2 md:p-0 font-benton my-2 text-left text-white text-sm">
-                          The expert team at{" "}
-                          <i>Dubai Sotheby's International Realty</i> brings a
-                          wealth of knowledge and experience to the field of
-                          luxury real estate. In addition to their comprehensive
-                          capabilities in local and international residential
-                          sales, they can provide assistance in a variety of
-                          areas including lettings, property management, new
-                          development sales, investment and portfolio
-                          management.
-                        </div>
-                        <div className="p-2 md:p-0 font-benton text-left text-white text-sm">
-                          At <i>Dubai Sotheby's International Realty</i>, we
-                          believe in taking a different approach to luxury real
-                          estate; one in which the client is at the heart of
-                          everything we do. We won't give up until you are
-                          completely happy.
-                        </div>
-                      </div>
+                    <div className="container mx-auto  bg-[#112548]">
+                      <Image
+                        src="/assets/aabout.jpg"
+                        width="1800"
+                        height="900"
+                        alt="group"
+                      />
                     </div>
                   </section>
 
