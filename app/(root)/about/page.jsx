@@ -46,8 +46,8 @@ export default function page() {
                     </div>
                   </div>
                   <div className="ip-about-sec2 flex justify-between">
-                    <div className="ip-about-sec2-col col-left">
-                      <div className="ip-about-sec2-image">
+                    <div className=" col-left flex justify-end items-end">
+                      <div className="">
                         <img
                           alt="Shaoib Shahid"
                           className=" lazyloaded"
@@ -108,33 +108,26 @@ export default function page() {
                         <div className="ip-about-sec3-text">
                           <div
                             className="ip-about-sec3-text-heading wow fadeInUp"
-                            style={{
-                              visibility: "visible",
-                              animationName: "fadeInUp",
-                            }}
+                           
                           >
                             Media Mogul
                           </div>
                           <div
                             className="ip-about-sec3-text-excerpt wow fadeInLeft"
-                            data-wow-delay=".2s"
-                            style={{
-                              visibility: "visible",
-                              animationDelay: "0.2s",
-                              animationName: "fadeInLeft",
-                            }}
+                          
                           >
                             <p>
-                              Shaoib Shahid is known as a star of Bravo’s Emmy-nominated
-                              Million Dollar Listing New York, its spin-off show
-                              Sell It Like Shaoib Shahid, and for his appearance in
-                              the film While We’re Young alongside Ben Stiller,
-                              Naomi Watts, and Adam Driver.{" "}
+                              Shaoib Shahid is known as a star of Bravo’s
+                              Emmy-nominated Million Dollar Listing New York,
+                              its spin-off show Sell It Like Shaoib Shahid, and
+                              for his appearance in the film While We’re Young
+                              alongside Ben Stiller, Naomi Watts, and Adam
+                              Driver.{" "}
                             </p>
                             <p>
-                              Shaoib Shahid is a frequent guest on broadcast, cable, and
-                              digital news networks, including NBC, ABC, CNBC,
-                              CNN, Buzzfeed, and others. He is also a
+                              Shaoib Shahid is a frequent guest on broadcast,
+                              cable, and digital news networks, including NBC,
+                              ABC, CNBC, CNN, Buzzfeed, and others. He is also a
                               contributor to Forbes, where he writes a column
                               about real estate, sales, and branding.
                             </p>
@@ -160,8 +153,7 @@ export default function page() {
                             width={717}
                             height={966}
                             style={{
-                              backgroundImage:
-                                "url('/assets/about-img.jpg')",
+                              backgroundImage: "url('/assets/about-img.jpg')",
                             }}
                           />{" "}
                         </div>
@@ -169,29 +161,21 @@ export default function page() {
                       <div className="sec-col right">
                         <div
                           className="ip-about-sec4-text-heading wow fadeInUp"
-                          style={{
-                            visibility: "visible",
-                            animationName: "fadeInUp",
-                          }}
+                        
                         >
                           Community Leader
                         </div>
                         <div
                           className="ip-about-sec4-text-excerpt wow fadeInLeft"
-                          data-wow-delay=".2s"
-                          style={{
-                            visibility: "visible",
-                            animationDelay: "0.2s",
-                            animationName: "fadeInLeft",
-                          }}
+                         
                         >
                           <p>
-                            Shaoib Shahid is focused on developing inspiring sales and
-                            lifestyle communities through education and writing.
-                            His best-selling book and innovative real estate
-                            sales course of the same name, Sell It Like Shaoib Shahid,
-                            are inside looks at all of Shaoib Shahid’s sales strategies
-                            and techniques.{" "}
+                            Shaoib Shahid is focused on developing inspiring
+                            sales and lifestyle communities through education
+                            and writing. His best-selling book and innovative
+                            real estate sales course of the same name, Sell It
+                            Like Shaoib Shahid, are inside looks at all of
+                            Shaoib Shahid’s sales strategies and techniques.{" "}
                           </p>
                           <p>
                             Big Money Energy, which began as a weekly newsletter
@@ -203,14 +187,14 @@ export default function page() {
                           </p>
                           <p>
                             The purpose of both initiatives is to give others
-                            the roadmap Shaoib Shahid used to go from struggling actor
-                            and novice real estate agent to leader of a
+                            the roadmap Shaoib Shahid used to go from struggling
+                            actor and novice real estate agent to leader of a
                             multi-hundred-million-dollar sales team and CEO of
                             the most followed brokerage brand in the world.{" "}
                           </p>
                           <p>
-                            Shaoib Shahid is an active supporter of Project Sunshine and
-                            City Harvest, among others.{" "}
+                            Shaoib Shahid is an active supporter of Project
+                            Sunshine and City Harvest, among others.{" "}
                           </p>
                         </div>
                       </div>
@@ -221,24 +205,20 @@ export default function page() {
                       <div className="sec-col right">
                         <div
                           className="ip-about-sec5-text-heading wow fadeInUp"
-                          style={{
-                            visibility: "visible",
-                            animationName: "fadeInUp",
-                          }}
+                        
                         >
                           Personal Life
                         </div>
                         <div
                           className="ip-about-sec5-text-excerpt wow fadeInLeft"
-                          data-wow-delay=".2s"
-                          style={{
-                            visibility: "visible",
-                            animationDelay: "0.2s",
-                            animationName: "fadeInLeft",
-                          }}
+                         
                         >
                           <p>
-                           Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet repellendus explicabo enim non, labore vero voluptates molestiae porro, natus repudiandae provident quasi magni molestias veritatis maxime ex laborum autem sunt.
+                            Lorem ipsum dolor sit amet consectetur adipisicing
+                            elit. Eveniet repellendus explicabo enim non, labore
+                            vero voluptates molestiae porro, natus repudiandae
+                            provident quasi magni molestias veritatis maxime ex
+                            laborum autem sunt.
                           </p>
                         </div>
                       </div>
@@ -250,7 +230,6 @@ export default function page() {
                             alt="image"
                             height={500}
                           />
-                          
                         </div>
                       </div>
                     </div>
