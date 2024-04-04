@@ -57,7 +57,7 @@ export default function page() {
                         <hr className="hidden lg:block !mr-8 w-[200px] border-none" />
 
                         <h1 className="text-4xl tracking-normal text-center    md:text-5xl font-normal !mb-4 md:!mb-10 text-sothebys-blue">
-                          Dubai Sotheby's International Realty
+                          Dubai Sotheby's International Realty ®
                         </h1>
                       </div>
                       <div className="flex items-center md:justify-left">
