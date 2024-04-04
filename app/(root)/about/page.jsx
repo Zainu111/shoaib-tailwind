@@ -187,7 +187,7 @@ export default function page() {
                   </section>
 
                   <section className="py-2 tracking-normal">
-                    <div className="max-w-7xl mx-auto  bg-[#112548]">
+                    <div className="max-w-7xl  bg-[#112548]">
                       <Image
                         src="/assets/aabout.jpg"
                         width="1800"
@@ -281,11 +281,12 @@ export default function page() {
                         </div>
                       </div>
                       <div className="ip-about-sec3-inner-col col-right">
-                        <div className="ip-about-sec3-image">
-                          <img
+                        <div className="">
+                          <Image
                             alt="Shaoib Shahid"
-                            className=" lazyloaded"
-                            src="/assets/about.jpg"
+                            width={500}
+                            height={900}
+                            src="/assets/c2.jpg"
                           />
                         </div>
                       </div>

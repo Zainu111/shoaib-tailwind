@@ -1,7 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import React from "react";
-import service1 from "@/public/assets/services.jpg";
+import c1 from "@/public/assets/c1.jpg";
 import services2 from "@/public/assets/services2.jpg";
 export default function Featured() {
   return (
@@ -12,12 +12,13 @@ export default function Featured() {
             <span className="font-semibold text-sothebys-blue">DISCOVER THE ACRES:</span> WHERE
             NATURE EMBRACES YOUR HOME
           </h2>
-          <div className="pt-[133%] relative">
+          <div className="">
             <Image
-              className="w-full h-full object-cover"
+              className="w-full h-full"
               alt="service"
-              src={service1}
-              fill={true}
+              src={c1}
+              width={400}
+              height={600}
               placeholder="blur"
             />
           </div>
