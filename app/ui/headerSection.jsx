@@ -19,8 +19,8 @@ export default function HeaderSection() {
           >
             Shoaib <span className="font-semibold">Shahid.</span>
           </Link>
-          <span className="text-sm flex items-center font-benton">
-            Associate director at <strong className="ml-1">Dubai Sotheby's </strong>
+          <span className="text-xs flex items-center font-bold font-benton">
+            Associate director at Dubai Sotheby's
           </span>
         </div>
         <div className="flex gap-4 items-center">
@@ -90,23 +90,23 @@ export default function HeaderSection() {
           close
         </button>
         <div className="flex items-center justify-center flex-col  w-full h-screen gap-4">
-          <Link href="/" className="uppercase">
+          <Link href="/" className="uppercase" onClick={() => setMenu(false)}>
             Home
           </Link>
 
-          <Link href="/off-plan-projects" className="uppercase">
+          <Link href="/off-plan-projects" className="uppercase" onClick={() => setMenu(false)}>
             projects
           </Link>
-          <Link href="/services" className="uppercase">
+          <Link href="/services" className="uppercase" onClick={() => setMenu(false)}>
             services
           </Link>
-          <Link href="/" className="uppercase">
+          <Link href="/" className="uppercase" onClick={() => setMenu(false)}>
             Achievements
           </Link>
-          <Link href="/about" className="uppercase">
+          <Link href="/about" className="uppercase" onClick={() => setMenu(false)}>
             About
           </Link>
-          <Link href="/contact" className="uppercase">
+          <Link href="/contact" className="uppercase" onClick={() => setMenu(false)}>
             contact
           </Link>
         </div>

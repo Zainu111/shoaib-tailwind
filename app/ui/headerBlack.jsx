@@ -20,8 +20,8 @@ export default function HeaderBlack() {
           >
             Shoaib <span className="font-semibold ">Shahid.</span>
           </Link>
-          <span className="text-sm flex items-center">
-            Associate director at <strong className="ml-1">Dubai Sotheby's </strong>
+          <span className="text-xs flex items-center font-bold font-benton">
+            Associate director at Dubai Sotheby's
           </span>
         </div>
         <div className="flex gap-4 items-center">
@@ -46,6 +46,7 @@ export default function HeaderBlack() {
           <Link
             className="text-sm uppercase hover:text-gray-400 transition-all"
             href="/"
+            
           >
             Home
           </Link>
@@ -90,23 +91,23 @@ export default function HeaderBlack() {
           close
         </button>
         <div className="flex items-center justify-center flex-col gap-16 w-full h-full">
-          <Link href="/" className="uppercase">
+          <Link href="/" className="uppercase" onClick={() => setMenu(false)}>
             Home
           </Link>
 
-          <Link href="/off-plan-projects" className="uppercase">
+          <Link href="/off-plan-projects" className="uppercase" onClick={() => setMenu(false)}>
             projects
           </Link>
-          <Link href="/services" className="uppercase">
+          <Link href="/services" className="uppercase" onClick={() => setMenu(false)}>
             services
           </Link>
-          <Link href="/" className="uppercase">
+          <Link href="/" className="uppercase" onClick={() => setMenu(false)}>
             Achievements
           </Link>
-          <Link href="/about" className="uppercase">
+          <Link href="/about" className="uppercase" onClick={() => setMenu(false)}>
             About
           </Link>
-          <Link href="/contact" className="uppercase">
+          <Link href="/contact" className="uppercase" onClick={() => setMenu(false)}>
             contact
           </Link>
         </div>
