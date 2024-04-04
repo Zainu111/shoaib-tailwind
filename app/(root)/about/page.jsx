@@ -61,7 +61,7 @@ export default function page() {
                       <div className="flex items-center md:justify-left">
                         <hr className="hidden md:block !mr-8 w-[200px] border-sothebys-blue border-b-1" />
                         <div className="font-acta text-md md:text-xl text-left font-normal md:max-w-4xl p-2 md:p-0">
-                          Founded in 1976, <i>Sotheby's International Realty</i>{" "}
+                          Founded in 1976, Sotheby's International Realty{" "}
                           has always been a highly sought-after name for the
                           world's wealthiest individuals when it comes to luxury
                           property and today our ever-expanding network includes
@@ -75,7 +75,7 @@ export default function page() {
                     </div>
                   </section>
                   <section className="md:py-12 text-center m-auto">
-                    <div className="container mx-auto flex justify-center items-center !py-12 !md:py-2">
+                    <div className="container mx-auto flex justify-center items-center !py-12 !md:py-2 pr-4">
                       <div className="w-1/2 pl-2 !md:pl-0 md:!pr-8">
                         <h2 className="text-2xl md:text-3xl  !mb-4 text-left font-normal text-sothebys-blue">
                           Global Reach, Local Expertise

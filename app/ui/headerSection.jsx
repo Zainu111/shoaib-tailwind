@@ -41,7 +41,7 @@ export default function HeaderSection() {
         </div>
       </div>
       <nav className="border-t py-4 hidden md:block">
-        <div className="max-w-max mx-auto flex gap-8">
+        <div className="max-w-max mx-auto flex gap-8 items-center">
           <Link
             className="text-sm uppercase hover:text-gray-400 transition-all"
             href="/"
@@ -55,7 +55,7 @@ export default function HeaderSection() {
             projects
           </Link>
           <Link href="/services" className="uppercase">
-            servicess
+            services
           </Link>
 
           <Link
@@ -98,7 +98,7 @@ export default function HeaderSection() {
             projects
           </Link>
           <Link href="/services" className="uppercase">
-            servicess
+            services
           </Link>
           <Link href="/" className="uppercase">
             Achievements
