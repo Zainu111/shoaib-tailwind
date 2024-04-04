@@ -30,7 +30,6 @@ html {
 
 @layer base {
   body {
-    letter-spacing: 2px;
     font-weight: 300;
     -webkit-font-smoothing: antialiased;
     line-height: inherit;
@@ -43,8 +42,16 @@ html {
   .btn {
     @apply px-6 py-2 text-xs bg-white border-transparent text-black uppercase cursor-pointer border-[1px];
   }
+  .svg svg path,
+  .svg svg rect {
+    fill: #ffffff;
+  }
   .header:hover {
     @apply bg-white text-black;
+  }
+  .header:hover .svg svg path,
+  .svg svg rect {
+    fill: #000;
   }
   .header:hover .btn {
     @apply bg-black text-white;
@@ -74,7 +81,9 @@ html {
   .header-black .btn {
     @apply px-6 py-2 text-xs bg-white border-transparent text-black uppercase cursor-pointer border-[1px];
   }
-
+  .header-black  .svg-black svg rect ,.svg-black svg path{
+    fill: #000;
+  }
   .btn-underline {
     @apply text-xs font-medium uppercase relative max-w-max transition-all;
   }
@@ -394,39 +403,41 @@ html {
 .content p:has(> strong) {
   margin-block: 1rem; /* Add margin to <p> elements containing <strong> tags */
 }
-.content p{
-  margin-block: .5rem; /* Add margin to <p> elements containing <strong> tags */
+.content p {
+  margin-block: 0.5rem; /* Add margin to <p> elements containing <strong> tags */
 }
-.content ul{
+.content ul {
   list-style: disc;
   margin-inline: 1rem;
   font-family: var(--benton-sans);
 }
 
-
 .ip-banner {
-  display: none
+  display: none;
 }
 
 #inner-page-wrapper {
-  margin-bottom: 0
+  margin-bottom: 0;
 }
 
-#content-sidebar,#content-full {
-  margin-top: 0
+#content-sidebar,
+#content-full {
+  margin-top: 0;
 }
 
 p#breadcrumbs {
   display: none;
 }
 
-#inner-page-wrapper>.container {
+#inner-page-wrapper > .container {
   width: 100%;
-  padding: 0
+  padding: 0;
 }
 
-#content p,#content h1,#content h2 {
-  margin: 0
+#content p,
+#content h1,
+#content h2 {
+  margin: 0;
 }
 
 .header .header-inner-wrap {
@@ -434,12 +445,12 @@ p#breadcrumbs {
   padding: 3.125rem 3.875rem 3.125rem 5.125rem;
   max-width: 100%;
   position: relative;
-  width: 55.12%
+  width: 55.12%;
 }
 
 .header .header-inner-wrap:before {
   position: absolute;
-  content: '';
+  content: "";
   top: 0;
   left: 0;
   width: 100%;
@@ -449,11 +460,11 @@ p#breadcrumbs {
   background-repeat: no-repeat;
   background-size: cover;
   pointer-events: none;
-  opacity: .1
+  opacity: 0.1;
 }
 
 .footer {
-  z-index: 1
+  z-index: 1;
 }
 
 #ip-about {
@@ -464,20 +475,20 @@ p#breadcrumbs {
 
 .ip-about-sec1 {
   font-size: 0;
-  position: relative
+  position: relative;
 }
 
 .ip-about-sec1-col {
   display: inline-block;
-  vertical-align: top
+  vertical-align: top;
 }
 
 .ip-about-sec1-col.col-left {
-  width: 55.18%
+  width: 55.18%;
 }
 
 .ip-about-sec1-text {
-  padding: 6.688rem 0 0 4.938rem
+  padding: 6.688rem 0 0 4.938rem;
 }
 
 .ip-about-sec1-text-title {
@@ -486,15 +497,15 @@ p#breadcrumbs {
   font-weight: 400;
   color: #949494;
   text-transform: uppercase;
-  line-height: 1
+  line-height: 1;
 }
 
 .ip-about-sec1-text-title div {
   font-size: 6.375rem;
   font-weight: 800;
   color: #212121;
-  margin-top: -.375rem;
-  margin-left: 4rem
+  margin-top: -0.375rem;
+  margin-left: 4rem;
 }
 
 .ip-about-sec1-text-excerpt {
@@ -506,7 +517,7 @@ p#breadcrumbs {
   line-height: 1.7;
   margin-top: 2.438rem;
   padding-left: 3.375rem;
-  padding-right: 7.875rem
+  padding-right: 7.875rem;
 }
 
 .ip-about-sec1-text-excerpt::before {
@@ -517,22 +528,22 @@ p#breadcrumbs {
   -webkit-transform: translateY(-50%);
   -ms-transform: translateY(-50%);
   transform: translateY(-50%);
-  width: .625rem;
+  width: 0.625rem;
   height: 13.938rem;
   background-color: #212121;
   pointer-events: none;
-  z-index: -1
+  z-index: -1;
 }
 
 .ip-about-sec1-col.col-right {
-  width: 44.81%
+  width: 44.81%;
 }
 
 .ip-about-sec1-image {
   position: relative;
   margin-top: -8.563rem;
   padding-left: 1.5rem;
-  z-index: 1
+  z-index: 1;
 }
 
 .ip-about-sec1-image::before {
@@ -547,13 +558,13 @@ p#breadcrumbs {
   background-position: top center;
   background-repeat: no-repeat;
   pointer-events: none;
-  opacity: .2;
-  z-index: -1
+  opacity: 0.2;
+  z-index: -1;
 }
 
 .ip-about-sec1-image img {
   max-width: 100%;
-  width: 100%
+  width: 100%;
 }
 
 .ip-about-sec2 {
@@ -563,37 +574,37 @@ p#breadcrumbs {
   background-size: cover;
   background-position: bottom center;
   background-repeat: no-repeat;
-  padding-top: 4.188rem
+  padding-top: 4.188rem;
 }
 
 .ip-about-sec2-col {
   display: inline-block;
-  vertical-align: top
+  vertical-align: top;
 }
 
 .ip-about-sec2-col.col-left {
   width: 35.56%;
-  position: relative
+  position: relative;
 }
 
 .ip-about-sec2-image {
   padding-left: 3.125rem;
-  padding-right: .625rem;
+  padding-right: 0.625rem;
   position: absolute;
   bottom: 0;
-  height: 100%
+  height: 100%;
 }
 
 .ip-about-sec2-image img {
-  height: 100%
+  height: 100%;
 }
 
 .ip-about-sec2-col.col-right {
-  width: 64.43%
+  width: 64.43%;
 }
 
 .ip-about-sec2-text {
-  padding-top: 2.125rem
+  padding-top: 2.125rem;
 }
 
 .ip-about-sec2-text-heading {
@@ -601,28 +612,28 @@ p#breadcrumbs {
   font-size: 5rem;
   font-weight: 800;
   color: #212121;
-  line-height: 1.1
+  line-height: 1.1;
 }
 
 .ip-about-sec2-text-excerpt {
   max-width: 59.125rem;
-  padding-top: 3.063rem
+  padding-top: 3.063rem;
 }
 
 .ip-about-sec2-text-excerpt p {
   font-family: var(--acta-display);
-  font-size: 1rem!important;
+  font-size: 1rem !important;
   font-weight: 400;
   color: #333;
-  line-height: 1.9!important;
-  letter-spacing: .02em;
-  margin-bottom: 1.875rem!important
+  line-height: 1.9 !important;
+  letter-spacing: 0.02em;
+  margin-bottom: 1.875rem !important;
 }
 
 .ip-about-sec3 {
   font-size: 0;
   position: relative;
-  padding-top: 8.313rem
+  padding-top: 8.313rem;
 }
 
 .ip-about-sec3::before {
@@ -637,7 +648,7 @@ p#breadcrumbs {
   background-position: center;
   background-repeat: no-repeat;
   pointer-events: none;
-  z-index: -1
+  z-index: -1;
 }
 
 .ip-about-sec3-inner-wrap {
@@ -646,48 +657,48 @@ p#breadcrumbs {
   background-image: url(../public/assets/images/ip-about-sec3-bg.jpg);
   background-size: cover;
   background-position: center;
-  background-repeat: no-repeat
+  background-repeat: no-repeat;
 }
 
 .ip-about-sec3-inner-col {
   display: inline-block;
-  vertical-align: top
+  vertical-align: top;
 }
 
 .ip-about-sec3-inner-col.col-left {
-  width: 55%
+  width: 55%;
 }
 
 .ip-about-sec3-text {
   padding-top: 4.875rem;
-  padding-left: 8rem
+  padding-left: 8rem;
 }
 
 .ip-about-sec3-text-heading {
   font-family: var(--acta-display);
-  font-size: 5.625rem!important;
+  font-size: 5.625rem !important;
   font-weight: 800;
-  color: #212121
+  color: #212121;
 }
 
 .ip-about-sec3-text-excerpt {
-  padding-top: .688rem;
-  padding-right: 2.938rem
+  padding-top: 0.688rem;
+  padding-right: 2.938rem;
 }
 
 .ip-about-sec3-text-excerpt p {
   font-family: var(--acta-display);
-  font-size: 1rem!important;
+  font-size: 1rem !important;
   font-weight: 400;
   color: #333;
-  letter-spacing: .02em;
-  line-height: 1.9!important;
-  margin-bottom: 2rem!important
+  letter-spacing: 0.02em;
+  line-height: 1.9 !important;
+  margin-bottom: 2rem !important;
 }
 
 .ip-about-sec3-inner-col.col-right {
   width: 45%;
-  position: relative
+  position: relative;
 }
 
 .ip-about-sec3-image {
@@ -697,17 +708,17 @@ p#breadcrumbs {
   position: absolute;
   top: 0;
   width: 100%;
-  left: -20px
+  left: -20px;
 }
 
 .ip-about-sec3-image img {
-  height: 100%
+  height: 100%;
 }
 
 .ip-about-sec4 {
   font-size: 0;
   position: relative;
-  z-index: 1
+  z-index: 1;
 }
 
 .ip-about-sec4::after {
@@ -722,65 +733,65 @@ p#breadcrumbs {
   background-position: center;
   background-repeat: no-repeat;
   pointer-events: none;
-  z-index: -1
+  z-index: -1;
 }
 
 .ip-about-sec4-col {
   display: inline-block;
-  vertical-align: top
+  vertical-align: top;
 }
 
 .ip-about-sec4-col.col-left {
-  width: 46.18%
+  width: 46.18%;
 }
 
 .ip-about-sec4-text {
   padding-top: 6.125rem;
-  padding-left: 10.813rem
+  padding-left: 10.813rem;
 }
 
 .ip-about-sec4-text-heading {
   font-family: var(--acta-display);
-  font-size: 5.625rem!important;
+  font-size: 5.625rem !important;
   font-weight: 800;
   color: #212121;
-  line-height: 1.1
+  line-height: 1.1;
 }
 
 .ip-about-sec4-text-excerpt {
   padding-top: 3rem;
-  max-width: 40.063rem
+  max-width: 40.063rem;
 }
 
 .ip-about-sec4-text-excerpt p {
   font-family: var(--acta-display);
-  font-size: 1rem!important;
+  font-size: 1rem !important;
   font-weight: 400;
   color: #333;
-  letter-spacing: .02em;
-  line-height: 1.9!important;
-  margin-bottom: 2rem!important
+  letter-spacing: 0.02em;
+  line-height: 1.9 !important;
+  margin-bottom: 2rem !important;
 }
 
 .ip-about-sec4-col.col-right {
-  width: 53.81%
+  width: 53.81%;
 }
 
 .ip-about-sec4-image {
   padding-top: 10.438rem;
-  margin-left: 1.125rem
+  margin-left: 1.125rem;
 }
 
 .ip-about-sec4-image img {
   max-width: 100%;
-  width: 100%
+  width: 100%;
 }
 
 .ip-about-sec5 {
   font-size: 0;
   position: relative;
   padding-top: 9.375rem;
-  z-index: 1
+  z-index: 1;
 }
 
 .ip-about-sec5-inner-wrap {
@@ -788,56 +799,56 @@ p#breadcrumbs {
   background-image: url(../public/assets/images/ip-about-sec5-bg.jpg);
   background-size: cover;
   background-position: center;
-  background-repeat: no-repeat
+  background-repeat: no-repeat;
 }
 
 .ip-about-sec5-inner-col {
   display: inline-block;
-  vertical-align: top
+  vertical-align: top;
 }
 
 .ip-about-sec5-inner-col.col-left {
-  width: 48.93%
+  width: 48.93%;
 }
 
 .ip-about-sec5-image {
-  margin-top: -2.375rem
+  margin-top: -2.375rem;
 }
 
 .ip-about-sec5-image img {
-  max-width: 100%
+  max-width: 100%;
 }
 
 .ip-about-sec5-inner-col.col-right {
-  width: 51.06%
+  width: 51.06%;
 }
 
 .ip-about-sec5-text {
   padding-top: 2.625rem;
-  padding-left: 4.188rem
+  padding-left: 4.188rem;
 }
 
 .ip-about-sec5-text-heading {
   font-family: var(--acta-display);
-  font-size: 5.625rem!important;
+  font-size: 5.625rem !important;
   font-weight: 800;
   color: #212121;
   line-height: 1.1;
-  max-width: 29.375rem
+  max-width: 29.375rem;
 }
 
 .ip-about-sec5-text-excerpt {
-  padding-top: 3.063rem
+  padding-top: 3.063rem;
 }
 
 .ip-about-sec5-text-excerpt p {
   font-family: var(--acta-display);
-  font-size: 1rem!important;
+  font-size: 1rem !important;
   font-weight: 400;
   color: #333;
-  letter-spacing: .02em;
-  line-height: 1.9!important;
-  margin-bottom: 2rem!important
+  letter-spacing: 0.02em;
+  line-height: 1.9 !important;
+  margin-bottom: 2rem !important;
 }
 
 @media only screen and (max-width: 1199px) {
@@ -845,297 +856,325 @@ p#breadcrumbs {
 
 @media only screen and (max-width: 991px) {
   .new-ip-about-sec4 .sec-inner-wrapper {
-      display:flex!important;
-      flex-direction: column-reverse
+    display: flex !important;
+    flex-direction: column-reverse;
   }
 
   #ip-about {
-      padding-top: 0
+    padding-top: 0;
   }
 
-  .col-left,.col-right {
-      display: block!important;
-      width: 100%!important
+  .col-left,
+  .col-right {
+    display: block !important;
+    width: 100% !important;
   }
 
-  .ip-about-sec1-text,.ip-about-sec3-text,.ip-about-sec4-text,.ip-about-sec5-text {
-      padding: 30px
+  .ip-about-sec1-text,
+  .ip-about-sec3-text,
+  .ip-about-sec4-text,
+  .ip-about-sec5-text {
+    padding: 30px;
   }
 
   .ip-about-sec1-text-title {
-      font-size: 46px
+    font-size: 46px;
   }
 
   .ip-about-sec1-text-title div {
-      font-size: 65.69px;
-      margin-top: 0;
-      margin-left: 30px
+    font-size: 65.69px;
+    margin-top: 0;
+    margin-left: 30px;
   }
 
   .ip-about-sec1-text-excerpt {
-      font-size: 16px;
-      margin-top: 20px;
-      padding-left: 0;
-      padding-right: 0
+    font-size: 16px;
+    margin-top: 20px;
+    padding-left: 0;
+    padding-right: 0;
   }
 
-  .ip-about-sec1-text-excerpt::before,.ip-about-sec3::before,.ip-about-sec4::after {
-      display: none
+  .ip-about-sec1-text-excerpt::before,
+  .ip-about-sec3::before,
+  .ip-about-sec4::after {
+    display: none;
   }
 
   .ip-about-sec1-image {
-      margin-top: 0;
-      padding-left: 0;
-      padding-bottom: 23px
+    margin-top: 0;
+    padding-left: 0;
+    padding-bottom: 23px;
   }
 
   .ip-about-sec1-image img {
-      display: block;
-      margin: 0 auto;
-      width: 100%
+    display: block;
+    margin: 0 auto;
+    width: 100%;
   }
 
   .ip-about-sec1-image::before {
-      height: 100%;
-      width: calc(100% - 26px);
-      left: auto;
-      right: 0
+    height: 100%;
+    width: calc(100% - 26px);
+    left: auto;
+    right: 0;
   }
 
   .ip-about-sec2 {
-      display: -ms-flexbox;
-      display: -webkit-box;
-      display: flex;
-      -ms-flex-direction: column;
-      -webkit-box-orient: vertical;
-      -webkit-box-direction: normal;
-      flex-direction: column;
-      -ms-flex-wrap: nowrap;
-      flex-wrap: nowrap;
-      -ms-flex-pack: start;
-      -webkit-box-pack: start;
-      justify-content: flex-start;
-      -ms-flex-line-pack: stretch;
-      align-content: stretch;
-      -ms-flex-align: start;
-      -webkit-box-align: start;
-      align-items: flex-start;
-      padding: 0 30px
+    display: -ms-flexbox;
+    display: -webkit-box;
+    display: flex;
+    -ms-flex-direction: column;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    flex-direction: column;
+    -ms-flex-wrap: nowrap;
+    flex-wrap: nowrap;
+    -ms-flex-pack: start;
+    -webkit-box-pack: start;
+    justify-content: flex-start;
+    -ms-flex-line-pack: stretch;
+    align-content: stretch;
+    -ms-flex-align: start;
+    -webkit-box-align: start;
+    align-items: flex-start;
+    padding: 0 30px;
   }
 
   .ip-about-sec2-col {
-      -ms-flex: 0 1 auto;
-      -webkit-box-flex: 0;
-      flex: 0 1 auto;
-      -webkit-align-self: auto;
-      -ms-flex-item-align: auto;
-      -ms-grid-row-align: auto;
-      align-self: auto
+    -ms-flex: 0 1 auto;
+    -webkit-box-flex: 0;
+    flex: 0 1 auto;
+    -webkit-align-self: auto;
+    -ms-flex-item-align: auto;
+    -ms-grid-row-align: auto;
+    align-self: auto;
   }
 
   .ip-about-sec2-col.col-right {
-      -ms-flex-order: 1;
-      -webkit-box-ordinal-group: 2;
-      order: 1
+    -ms-flex-order: 1;
+    -webkit-box-ordinal-group: 2;
+    order: 1;
   }
 
   .ip-about-sec2-col.col-left {
-      -ms-flex-order: 2;
-      -webkit-box-ordinal-group: 3;
-      order: 2
+    -ms-flex-order: 2;
+    -webkit-box-ordinal-group: 3;
+    order: 2;
   }
 
-  .ip-about-sec2-image,.ip-about-sec3-image,.ip-about-sec4-image {
-      padding-left: 0;
-      padding-right: 0;
-      text-align: center
+  .ip-about-sec2-image,
+  .ip-about-sec3-image,
+  .ip-about-sec4-image {
+    padding-left: 0;
+    padding-right: 0;
+    text-align: center;
   }
 
-  .ip-about-sec2-image img,.ip-about-sec3-image img,.ip-about-sec4-image img,.ip-about-sec5-image img {
-      max-width: 420px
+  .ip-about-sec2-image img,
+  .ip-about-sec3-image img,
+  .ip-about-sec4-image img,
+  .ip-about-sec5-image img {
+    max-width: 420px;
   }
 
   .ip-about-sec2-text {
-      padding-top: 30px
+    padding-top: 30px;
   }
 
-  .ip-about-sec2-text-heading,.ip-about-sec3-text-heading,.ip-about-sec4-text-heading,.ip-about-sec5-text-heading {
-      font-size: 42px!important;
-      text-align: left;
-      max-width: 100%
+  .ip-about-sec2-text-heading,
+  .ip-about-sec3-text-heading,
+  .ip-about-sec4-text-heading,
+  .ip-about-sec5-text-heading {
+    font-size: 42px !important;
+    text-align: left;
+    max-width: 100%;
   }
 
-  .ip-about-sec2-text-excerpt,.ip-about-sec3-text-excerpt,.ip-about-sec4-text-excerpt,.ip-about-sec5-text-excerpt {
-      max-width: 100%;
-      padding: 23px 0;
-      text-align: left;
-      display: block
+  .ip-about-sec2-text-excerpt,
+  .ip-about-sec3-text-excerpt,
+  .ip-about-sec4-text-excerpt,
+  .ip-about-sec5-text-excerpt {
+    max-width: 100%;
+    padding: 23px 0;
+    text-align: left;
+    display: block;
   }
 
-  .ip-about-sec2-text-excerpt p,.ip-about-sec3-text-excerpt p,.ip-about-sec4-text-excerpt p,.ip-about-sec5-text-excerpt p {
-      font-size: 16px!important;
-      margin-bottom: 20px!important;
-      text-align: left
+  .ip-about-sec2-text-excerpt p,
+  .ip-about-sec3-text-excerpt p,
+  .ip-about-sec4-text-excerpt p,
+  .ip-about-sec5-text-excerpt p {
+    font-size: 16px !important;
+    margin-bottom: 20px !important;
+    text-align: left;
   }
 
   .ip-about-sec3 {
-      padding-top: 0;
-      padding-bottom: 0
+    padding-top: 0;
+    padding-bottom: 0;
   }
 
-  .ip-about-sec3-inner-wrap,.ip-about-sec5-inner-wrap {
-      max-width: 100%
+  .ip-about-sec3-inner-wrap,
+  .ip-about-sec5-inner-wrap {
+    max-width: 100%;
   }
 
-  .ip-about-sec3-image,.ip-about-sec4-image {
-      padding-top: 0;
-      margin-top: 20px;
-      margin-left: 0
+  .ip-about-sec3-image,
+  .ip-about-sec4-image {
+    padding-top: 0;
+    margin-top: 20px;
+    margin-left: 0;
   }
 
   .ip-about-sec5 {
-      padding-top: 0
+    padding-top: 0;
   }
 
   .ip-about-sec5-image {
-      margin-top: 40px;
-      text-align: center
+    margin-top: 40px;
+    text-align: center;
   }
 
   .ip-about-sec2-image img {
-      height: auto;
-      max-width: 100%
+    height: auto;
+    max-width: 100%;
   }
 
   .ip-about-sec2-image {
-      position: relative;
-      height: auto;
-      width: 100%
+    position: relative;
+    height: auto;
+    width: 100%;
   }
 
   .ip-about-sec2-col.col-left {
-      min-height: unset!important;
-      padding: 0
+    min-height: unset !important;
+    padding: 0;
   }
 
   .ip-about-sec3-image img {
-      height: auto
+    height: auto;
   }
 
   .ip-about-sec3-image {
-      position: relative;
-      left: 0
+    position: relative;
+    left: 0;
   }
 
   .ip-about-sec3-inner-col.col-right {
-      min-height: unset!important
+    min-height: unset !important;
   }
 
-  .ip-about-sec4-text-excerpt p:nth-child(3),.ip-about-sec4-text-excerpt p:nth-child(4) {
-      width: 100%
+  .ip-about-sec4-text-excerpt p:nth-child(3),
+  .ip-about-sec4-text-excerpt p:nth-child(4) {
+    width: 100%;
   }
 
-  .new-ip-about-sec4 .sec-col,.new-ip-about-sec5 .sec-col,.new-ip-about-sec4 .sec-inner-wrapper {
-      display: block;
-      width: 100%!important;
-      padding: 20px;
-      text-align: left
+  .new-ip-about-sec4 .sec-col,
+  .new-ip-about-sec5 .sec-col,
+  .new-ip-about-sec4 .sec-inner-wrapper {
+    display: block;
+    width: 100% !important;
+    padding: 20px;
+    text-align: left;
   }
 
-  .ip-about-sec5-text-heading.wow.fadeInUp,.ip-about-sec5-text-excerpt.wow.fadeInLeft {
-      max-width: 100%
+  .ip-about-sec5-text-heading.wow.fadeInUp,
+  .ip-about-sec5-text-excerpt.wow.fadeInLeft {
+    max-width: 100%;
   }
 
-  .ip-about-sec5-text-heading.wow.fadeInUp,.ip-about-sec5-text-excerpt.wow.fadeInLeft,.new-ip-about-sec5 .sec-photo {
-      max-width: 100%!important
+  .ip-about-sec5-text-heading.wow.fadeInUp,
+  .ip-about-sec5-text-excerpt.wow.fadeInLeft,
+  .new-ip-about-sec5 .sec-photo {
+    max-width: 100% !important;
   }
 
   .ip-about-sec1 {
-      display: -webkit-box;
-      display: -ms-flexbox;
-      display: flex;
-      -webkit-box-orient: vertical;
-      -webkit-box-direction: reverse;
-      -ms-flex-flow: column-reverse;
-      flex-flow: column-reverse
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+    -ms-flex-flow: column-reverse;
+    flex-flow: column-reverse;
   }
 
   .ip-about-sec1-text-excerpt {
-      font-size: 16px!important;
-      border-left: 10px solid #212121;
-      padding: 20px 0 44px 26px;
-      margin-top: 10px;
-      line-height: 2
+    font-size: 16px !important;
+    border-left: 10px solid #212121;
+    padding: 20px 0 44px 26px;
+    margin-top: 10px;
+    line-height: 2;
   }
 
   .new-ip-about-sec4 .sec-col {
-      padding: 0
+    padding: 0;
   }
 
   .new-ip-about-sec4 .sec-inner-wrapper {
-      padding: 30px 0 0!important
+    padding: 30px 0 0 !important;
   }
 
   .new-ip-about-sec4 .sec-photo {
-      width: 100%!important;
-      padding-top: 20px!important;
-      padding-left: 20px!important
+    width: 100% !important;
+    padding-top: 20px !important;
+    padding-left: 20px !important;
   }
 
   .new-ip-about-sec4 .sec-photo::before {
-      width: calc(100% - 15px)
+    width: calc(100% - 15px);
   }
 
   .new-ip-about-sec4::after {
-      display: none
+    display: none;
   }
 
   .new-ip-about-sec5 {
-      padding-top: 30px!important
+    padding-top: 30px !important;
   }
 
   .new-ip-about-sec4 .sec-col.right {
-      padding: 0 30px!important
+    padding: 0 30px !important;
   }
 
   .new-ip-about-sec5 .sec-col.right {
-      padding: 0 30px;
-      width: 100%!important
+    padding: 0 30px;
+    width: 100% !important;
   }
 
   .ip-about-sec5-text-excerpt.wow.fadeInLeft {
-      padding: 20px!important;
-      display: block
+    padding: 20px !important;
+    display: block;
   }
 
   .new-ip-about-sec5 .sec-photo {
-      padding: 0!important
+    padding: 0 !important;
   }
 
   .ip-about-sec5-text-excerpt.wow.fadeInLeft {
-      padding: 0
+    padding: 0;
   }
 
   .new-ip-about-sec5 .sec-col {
-      padding: 0
+    padding: 0;
   }
 
   .ip-about-sec5-text-heading.wow.fadeInUp {
-      padding-bottom: 20px;
-      display: block;
-      width: 85%;
-      margin-left: 0!important;
-      max-width: 100%!important
+    padding-bottom: 20px;
+    display: block;
+    width: 85%;
+    margin-left: 0 !important;
+    max-width: 100% !important;
   }
 
   .ip-about-sec1-text {
-      padding-bottom: 45px;
-      padding-top: 66px
+    padding-bottom: 45px;
+    padding-top: 66px;
   }
 
   #content .ip-about-sec1-text-excerpt h2 {
-      line-height: 1!important;
-      font-size: 16px
+    line-height: 1 !important;
+    font-size: 16px;
   }
 }
 
@@ -1143,34 +1182,40 @@ p#breadcrumbs {
 }
 
 @media only screen and (max-width: 480px) {
-  .ip-about-sec1-image img,.ip-about-sec2-image img,.ip-about-sec3-image img,.ip-about-sec4-image img,.ip-about-sec5-image img {
+  .ip-about-sec1-image img,
+  .ip-about-sec2-image img,
+  .ip-about-sec3-image img,
+  .ip-about-sec4-image img,
+  .ip-about-sec5-image img {
   }
 
-  .ip-about-sec2-text-heading,.ip-about-sec3-text-heading,.ip-about-sec4-text-heading,.ip-about-sec5-text-heading {
-      font-size: 35px!important
+  .ip-about-sec2-text-heading,
+  .ip-about-sec3-text-heading,
+  .ip-about-sec4-text-heading,
+  .ip-about-sec5-text-heading {
+    font-size: 35px !important;
   }
 }
 
 .new-ip-about-sec4 {
   font-size: 0;
-  position: relative
+  position: relative;
 }
-
 
 .new-ip-about-sec4 .sec-inner-wrapper {
   padding-top: 4.688rem;
-  position: relative
+  position: relative;
 }
 
 .new-ip-about-sec4 .sec-inner-wrapper:after {
-  content: '';
+  content: "";
   width: calc(100% - 2.813rem);
   height: 100%;
   background: #fff;
   position: absolute;
   top: 0;
   left: 0;
-  z-index: 0
+  z-index: 0;
 }
 
 .new-ip-about-sec4 .sec-col {
@@ -1178,18 +1223,18 @@ p#breadcrumbs {
   display: inline-block;
   vertical-align: middle;
   position: relative;
-  z-index: 1
+  z-index: 1;
 }
 
 .new-ip-about-sec4 .sec-col.right {
-  padding-left: 1.875rem
+  padding-left: 1.875rem;
 }
 
 .new-ip-about-sec4 .sec-photo {
   position: relative;
   padding-top: 1.875rem;
   padding-left: 2.688rem;
-  width: calc(100% - 2.500rem)
+  width: calc(100% - 2.5rem);
 }
 
 .new-ip-about-sec4 .sec-photo::before {
@@ -1204,44 +1249,45 @@ p#breadcrumbs {
   background-position: top center;
   background-repeat: no-repeat;
   pointer-events: none;
-  opacity: .2
+  opacity: 0.2;
 }
 
-.new-ip-about-sec4 .sec-photo canvas,.new-ip-about-sec5 .sec-photo canvas {
+.new-ip-about-sec4 .sec-photo canvas,
+.new-ip-about-sec5 .sec-photo canvas {
   width: 100%;
   height: auto;
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
   position: relative;
-  display: block
+  display: block;
 }
 
 .new-ip-about-sec5 {
   font-size: 0;
   position: relative;
-  padding-top: 6.313rem
+  padding-top: 6.313rem;
 }
 
 .new-ip-about-sec5 .sec-inner-wrapper {
   background-image: url(../public/assets/images/ip-about-sec5-bg.jpg);
   background-size: cover;
   background-position: center;
-  background-repeat: no-repeat
+  background-repeat: no-repeat;
 }
 
 .new-ip-about-sec5 .sec-col {
   width: 50%;
   display: inline-block;
-  vertical-align: middle
+  vertical-align: middle;
 }
 
 .new-ip-about-sec5 .sec-photo {
-  padding-left: 2.5rem
+  padding-left: 2.5rem;
 }
 
-.ip-about-sec5-text-heading.wow.fadeInUp,.ip-about-sec5-text-excerpt.wow.fadeInLeft {
+.ip-about-sec5-text-heading.wow.fadeInUp,
+.ip-about-sec5-text-excerpt.wow.fadeInLeft {
   max-width: 34.188rem;
-  margin: 0 auto
+  margin: 0 auto;
 }
-

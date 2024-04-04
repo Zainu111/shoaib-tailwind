@@ -18,6 +18,19 @@ export default async function page() {
   return (
     <>
       <HeaderBlack />
+      <section className="container">
+        <div className="max-w-3xl">
+          <h2 className="text-3xl font-medium font-benton mb-4">
+            Welcome to Extra Ordinary Living
+          </h2>
+          <p className="text-base">
+            Discover the pinnacle of luxury living with <b>Shoaib Shahid</b>.
+            Explore our handpicked selection of prestigious properties,
+            elevating you to a level above the rest. Experience the privilege of
+            owning a truly exceptional home. Welcome to extraordinary living.
+          </p>
+        </div>
+      </section>
       <section className="container !mx-auto my-4">
         <div className="py-3 md:py-6 flex items-center justify-between font-benton">
           <div className="flex items-center text-sm font-normal text-sothebys-blue">

@@ -19,8 +19,11 @@ export default function HeaderSection() {
           >
             Shoaib <span className="font-semibold">Shahid.</span>
           </Link>
-          <span className="text-xs flex items-center font-bold font-benton">
-            Associate Director at Dubai Sotheby's
+          <span className="text-xs flex items-center font-bold font-benton gap-1">
+            <div>Associate Director at</div>{" "}
+            <div className="svg">
+              <Sothebys  width="100" />
+            </div>
           </span>
         </div>
         <div className="flex gap-4 items-center">
@@ -94,19 +97,35 @@ export default function HeaderSection() {
             Home
           </Link>
 
-          <Link href="/off-plan-projects" className="uppercase" onClick={() => setMenu(false)}>
+          <Link
+            href="/off-plan-projects"
+            className="uppercase"
+            onClick={() => setMenu(false)}
+          >
             projects
           </Link>
-          <Link href="/services" className="uppercase" onClick={() => setMenu(false)}>
+          <Link
+            href="/services"
+            className="uppercase"
+            onClick={() => setMenu(false)}
+          >
             services
           </Link>
           <Link href="/" className="uppercase" onClick={() => setMenu(false)}>
             Achievements
           </Link>
-          <Link href="/about" className="uppercase" onClick={() => setMenu(false)}>
+          <Link
+            href="/about"
+            className="uppercase"
+            onClick={() => setMenu(false)}
+          >
             About
           </Link>
-          <Link href="/contact" className="uppercase" onClick={() => setMenu(false)}>
+          <Link
+            href="/contact"
+            className="uppercase"
+            onClick={() => setMenu(false)}
+          >
             contact
           </Link>
         </div>

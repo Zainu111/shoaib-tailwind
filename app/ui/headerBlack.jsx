@@ -20,9 +20,12 @@ export default function HeaderBlack() {
           >
             Shoaib <span className="font-semibold ">Shahid.</span>
           </Link>
-          <span className="text-xs flex items-center font-bold font-benton">
-            Associate Director at Dubai Sotheby's
-          </span>
+          <div className="text-xs flex items-center gap-1 font-bold font-benton">
+            <div>Associate Director at</div>{" "}
+            <div  >
+              <Sothebys width="100" />
+            </div>
+          </div>
         </div>
         <div className="flex gap-4 items-center">
           <div className="hidden md:flex gap-4">
@@ -46,7 +49,6 @@ export default function HeaderBlack() {
           <Link
             className="text-sm uppercase hover:text-gray-400 transition-all"
             href="/"
-            
           >
             Home
           </Link>
@@ -95,19 +97,35 @@ export default function HeaderBlack() {
             Home
           </Link>
 
-          <Link href="/off-plan-projects" className="uppercase" onClick={() => setMenu(false)}>
+          <Link
+            href="/off-plan-projects"
+            className="uppercase"
+            onClick={() => setMenu(false)}
+          >
             projects
           </Link>
-          <Link href="/services" className="uppercase" onClick={() => setMenu(false)}>
+          <Link
+            href="/services"
+            className="uppercase"
+            onClick={() => setMenu(false)}
+          >
             services
           </Link>
           <Link href="/" className="uppercase" onClick={() => setMenu(false)}>
             Achievements
           </Link>
-          <Link href="/about" className="uppercase" onClick={() => setMenu(false)}>
+          <Link
+            href="/about"
+            className="uppercase"
+            onClick={() => setMenu(false)}
+          >
             About
           </Link>
-          <Link href="/contact" className="uppercase" onClick={() => setMenu(false)}>
+          <Link
+            href="/contact"
+            className="uppercase"
+            onClick={() => setMenu(false)}
+          >
             contact
           </Link>
         </div>
