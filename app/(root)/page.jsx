@@ -25,7 +25,9 @@ export default function Home() {
         <div className="w-full h-[600px] aspect-video overflow-hidden">
           <div className="absolute top-[50%] -translate-y-[50%] p-8 left-4 w-[40%] font-benton bg-sothebys-blue text-white">
             <div className="flex flex-col gap-4">
-              <h3 className="text-4xl font-bold">REAL ESTATE ENTREPRENEUR</h3>
+              <h3 className="text-4xl font-bold">
+                Global Real Estate Consultant
+              </h3>
               <p className="text-sm">
                 Shoaib Shahid: Global real estate consultant with 15+ years
                 experience, oversaw $1.5B property sales, specializes in
@@ -38,18 +40,14 @@ export default function Home() {
                   $1.5 Billion
                 </span>
                 <span className="basis-1/2 font-bold">
-                  94.7% Closure Rate The most followed real estate brand in the
+                  96% Closure Rate The most followed real estate brand in the
                   world
                 </span>
               </div>
               <div>
                 <div className="flex flex-col">
                   <span className="text-sm font-bold">
-                    Ranked The #6 Brokerage in NYC in Only the 2nd Year of
-                    Operation 2022
-                  </span>
-                  <span className="text-xs">
-                    by Wall Street Journal's Real Trends
+                    Ranked #1 at Christie's International real estate
                   </span>
                 </div>
               </div>
