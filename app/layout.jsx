@@ -32,7 +32,7 @@ export default function RootLayout({ children }) {
     >
       <body className="font-acta">
         <NextTopLoader
-        
+        showSpinner={false}
         color="#112548"
         />
         {children}
