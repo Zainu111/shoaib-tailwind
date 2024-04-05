@@ -21,7 +21,6 @@ export default async function page({ params }) {
   const { slug } = params;
   const data = await getData(slug);
 
-  
   return (
     <>
       <HeaderBlack />
@@ -130,6 +129,7 @@ export default async function page({ params }) {
             <div className="max-w-full xl:max-w-[1440px] mx-auto mt-4 relative">
               <CarouselSize images={data.images} />
             </div>
+         
           </div>
           <div className="flex justify-center container">
             <div className="w-full max-w-[1634px] grid grid-cols-1 lg:grid-cols-10 items-center lg:items-start justify-between mt-[50px]">
@@ -383,8 +383,7 @@ export default async function page({ params }) {
           No Data found
         </div>
       )}
-    <Footer />
+      <Footer />
     </>
-    
   );
 }

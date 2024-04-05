@@ -52,13 +52,12 @@ export function CarouselSize({ images }) {
         <CarouselContent>
           {images.map((image, index) => (
             <CarouselItem key={index} className="basis-full ">
-              <div className="w-full h-full">
+              <div className=" relative overflow-hidden mx-auto  wide-container bg-cover bg-no-repeat bg-center h-[363px] md:h-[600px] lg:h-[700px]">
                 <Image
                   src={urlForImage(image)}
                   alt="image"
-                  className="w-full h-auto object-cover aspect-video cursor-pointer"
-                  width={1000}
-                  height={1000}
+                  className="object-cover object-center"
+                  fill={true}
                   onClick={() => onOpen(index, image)}
                 />
               </div>
@@ -66,13 +65,13 @@ export function CarouselSize({ images }) {
           ))}
         </CarouselContent>
 
-        <div className="flex p-4 items-center justify-between">
+        <div className="flex p-4 items-center justify-between md:hidden">
           <CarouselPrevious variant="none" />
           <CarouselNext variant="none" />
         </div>
       </Carousel>
       <Dialog open={isOpen} onOpenChange={onClose}>
-        <DialogContent className="!max-w-7xl">
+        <DialogContent className="!max-w-6xl 2xl:!max-w-7xl">
           <Carousel
             opts={{
               loop: true,
@@ -84,9 +83,9 @@ export function CarouselSize({ images }) {
                   <Image
                     src={urlForImage(image)}
                     alt="image"
-                    className=" aspect-video mx-auto"
+                    className="w-full aspect-video mx-auto"
                     width={1000}
-                    height={1000}
+                    height={800}
                   />
                 </CarouselItem>
               ))}
