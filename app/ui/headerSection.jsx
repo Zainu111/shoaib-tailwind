@@ -1,16 +1,28 @@
 "use client";
 import Link from "next/link";
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import { LuPhone } from "react-icons/lu";
 import { MdOutlineMailOutline } from "react-icons/md";
 import { FaWhatsapp } from "react-icons/fa";
 import { ActaDisplay } from "../fonts";
 import Sothebys from "../icons/Sothebys";
+import { cn } from "@/lib/utils";
 
 export default function HeaderSection() {
   const [menu, setMenu] = useState(false);
+  const [isSticky, setIsSticky] = useState(false);
+  const handleScroll = () => {
+    scrollY > 80 ? setIsSticky(true) : setIsSticky(false);
+  };
+  useEffect(() => {
+    window.addEventListener("scroll", handleScroll);
+
+    return () => {
+      window.removeEventListener("scroll", handleScroll);
+    };
+  }, []); 
   return (
-    <header className="header">
+    <header className={cn("header", { "sticky bg-white z-30 shadow-md text-black": isSticky })}>
       <div className="w-full flex items-center justify-between pt-4 py-2">
         <div className="flex flex-col">
           <Link
@@ -22,7 +34,7 @@ export default function HeaderSection() {
           <span className="text-xs flex items-center  font-benton gap-1">
             <div>Associate Director at</div>{" "}
             <div className="svg mt-[2px]">
-              <Sothebys  width="100" />
+              <Sothebys width="100" isSticky={isSticky}/>
             </div>
           </span>
         </div>

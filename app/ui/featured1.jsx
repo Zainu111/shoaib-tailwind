@@ -6,8 +6,8 @@ import feature from "@/public/assets/featured.jpg";
 import featureBack from "@/public/assets/featureBack.jpg";
 export default function Featured1() {
   return (
-    <section className="w-full lg:h-[150vh] relative">
-      <div className="fixed top-0 left-0 -z-10 bg-red-400 w-full h-full hidden lg:block">
+    <section className="w-full lg:h-[150vh] relative overflow-hidden">
+      <div className="fixed top-0 left-0 -z-10  w-full h-full hidden lg:block ">
         <Image
           src={featureBack}
           placeholder="blur"

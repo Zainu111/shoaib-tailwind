@@ -1,17 +1,29 @@
 "use client";
 import Link from "next/link";
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import { LuPhone } from "react-icons/lu";
 import { MdOutlineMailOutline } from "react-icons/md";
 import { FaWhatsapp } from "react-icons/fa";
 import { ActaDisplay } from "../fonts";
 import Image from "next/image";
 import Sothebys from "../icons/Sothebys";
+import { cn } from "@/lib/utils";
 
 export default function HeaderBlack() {
   const [menu, setMenu] = useState(false);
+  const [isSticky, setIsSticky] = useState(false);
+  const handleScroll = () => {
+    scrollY > 80 ? setIsSticky(true) : setIsSticky(false);
+  };
+  useEffect(() => {
+    window.addEventListener("scroll", handleScroll);
+
+    return () => {
+      window.removeEventListener("scroll", handleScroll);
+    };
+  }, []); 
   return (
-    <header className="header-black">
+    <header className={cn("header-black", { "sticky top-0 left-0 z-30 shadow-md bg-white text-black": isSticky })}>
       <div className="w-full flex items-center justify-between pt-4 py-2">
         <div className="flex flex-col">
           <Link
