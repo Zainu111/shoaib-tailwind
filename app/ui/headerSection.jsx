@@ -20,9 +20,14 @@ export default function HeaderSection() {
     return () => {
       window.removeEventListener("scroll", handleScroll);
     };
-  }, []); 
+  }, []);
   return (
-    <header className={cn("header", { "sticky bg-white z-30 shadow-md text-black": isSticky })}>
+    <header
+      className={cn(
+        "header",
+        { "fixed w-full top-0 left-0 bg-white z-30 shadow-md text-black": isSticky }
+      )}
+    >
       <div className="w-full flex items-center justify-between pt-4 py-2">
         <div className="flex flex-col">
           <Link
@@ -34,7 +39,7 @@ export default function HeaderSection() {
           <span className="text-xs flex items-center  font-benton gap-1">
             <div>Associate Director at</div>{" "}
             <div className="svg mt-[2px]">
-              <Sothebys width="100" isSticky={isSticky}/>
+              <Sothebys width="100" isSticky={isSticky} />
             </div>
           </span>
         </div>

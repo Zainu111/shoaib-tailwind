@@ -6,10 +6,6 @@ import "next-cloudinary/dist/cld-video-player.css";
 export default function Banner() {
   return (
     <section className="w-full relative bg-black pt-[48%] overflow-hidden">
-      {/* <video muted autoPlay loop playsInline className="w-full">
-        <source src="/assets/intro.mp4" type="video/mp4" />
-        Your browser does not support the video tag.
-      </video> */}
       <div className="absolute top-0 left-0 w-full">
         <CldVideoPlayer
           src="pahizwbjznyu3rdd6koh"
