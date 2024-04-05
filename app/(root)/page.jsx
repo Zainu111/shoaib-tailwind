@@ -52,20 +52,20 @@ export default function Home() {
                 off-plan properties, luxury real estate, and prestigious
                 locations.
               </p>
-              <span className="font-medium text-lg">Last year sold nearly</span>
+              <span className="font-medium text-lg">Property Sold</span>
               <div className="flex gap-4 border-b pb-3">
                 <span className="text-4xl basis-1/2 font-bold">
                   $1.5 Billion
                 </span>
                 <span className="basis-1/2 font-bold">
-                  96% Closure Rate The most followed real estate brand in the
-                  world
+                Serving 70+ HNWIs and Top Companies with Distinction
                 </span>
               </div>
               <div>
                 <div className="flex flex-col">
                   <span className="text-sm font-bold">
-                    Ranked #1 at Christie's International real estate
+                    Consistently Ranked #1 Top Earner at Christie's
+                    International Real Estate
                   </span>
                 </div>
               </div>
@@ -81,7 +81,7 @@ export default function Home() {
           />
         </div>
       </section>
-      <Achievements />
+      {/* <Achievements /> */}
       <Featured2 />
       <Footer />
     </>

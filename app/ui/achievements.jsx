@@ -9,7 +9,7 @@ export default function Achievements() {
           Muhammad Shoaib Shahid's Remarkable Achievements
         </span>
       </div>
-      <div className="flex flex-col  gap-8 max-w-max  mx-auto md:flex-row md:gap-16 md:mt-8">
+      <div className="flex flex-col  gap-8 max-w-max  mx-auto md:flex-row md:gap-16 md:mt-8 ">
         <div className="flex flex-col gap-4 border-l-2 pl-3 text-xl border-sothebys-blue font-benton">
           <span className="font-bold text-4xl text-sothebys-blue">15+</span>
           <span>Experience</span>
@@ -19,9 +19,9 @@ export default function Achievements() {
           <span>Sales</span>
         </div>
         <div className="flex flex-col gap-4 border-l-2 pl-3 text-xl border-sothebys-blue font-benton">
-          <span className="font-bold text-4xl text-sothebys-blue">30+</span>
+          <span className="font-bold text-4xl text-sothebys-blue">70+</span>
 
-          <span>Projects</span>
+          <span>Serving HNWIs and Top Companies with Distinction</span>
         </div>
       </div>
     </section>

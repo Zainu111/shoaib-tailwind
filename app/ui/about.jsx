@@ -8,7 +8,7 @@ export default function About() {
       <div className="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-8">
         <div className="col-span-1 flex flex-col items-center justify-center gap-8 py-4 md:py-0 border-t border-b">
           <h2 className="text-white text-xl md:text-4xl">About Shoaib Shahid</h2>
-          <p className="text-sm text-white">
+          <p className="text-lg font-benton text-white">
             Shoaib Sahid is a highly esteemed global real estate consultant who
             has over fifteen years experience in international sales, business
             development and has overseen a staggering 1.5 billion USD worth of
