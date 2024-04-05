@@ -23,13 +23,22 @@ import { useState } from "react";
 
 export function CarouselSize({ images }) {
   const [isOpen, setIsOpen] = useState(false);
+  const [updatedImages, setUpdatedImages] = useState(images); // initialImages is the initial value of updatedImages
+
   const onClose = () => {
     setIsOpen(false);
+    setSelectImage("");
   };
-  const updatedImages = [...images];
-  const onOpen = (i,image) => {
+  const [selectImage, setSelectImage] = useState("");
+  const onOpen = (i, image) => {
     setIsOpen(true);
- 
+    // Make a copy of updatedImages
+    const updatedImagesCopy = [...updatedImages];
+    // Remove the element at index i and insert image at the beginning
+    updatedImagesCopy.splice(i, 1);
+    updatedImagesCopy.unshift(image);
+    // Set the state with the updated copy
+    setUpdatedImages(updatedImagesCopy);
   };
 
   return (
@@ -50,7 +59,7 @@ export function CarouselSize({ images }) {
                   className="w-full h-auto object-cover aspect-video cursor-pointer"
                   width={1000}
                   height={1000}
-                  onClick={() => onOpen(index,image)}
+                  onClick={() => onOpen(index, image)}
                 />
               </div>
             </CarouselItem>

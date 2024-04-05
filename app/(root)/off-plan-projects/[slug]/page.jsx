@@ -20,6 +20,8 @@ async function getData(slug) {
 export default async function page({ params }) {
   const { slug } = params;
   const data = await getData(slug);
+
+  
   return (
     <>
       <HeaderBlack />
