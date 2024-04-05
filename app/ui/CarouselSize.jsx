@@ -47,7 +47,7 @@ export function CarouselSize({ images }) {
         opts={{
           loop: true,
         }}
-        className="flex flex-col aspect-auto"
+        className="relative flex flex-col aspect-auto"
       >
         <CarouselContent>
           {images.map((image, index) => (
@@ -64,10 +64,27 @@ export function CarouselSize({ images }) {
             </CarouselItem>
           ))}
         </CarouselContent>
-
+        <div className="absolute top-0 left-0 w-full h-full flex">
+          <CarouselPrevious
+            variant="none"
+            show={false}
+            className="basis-1/2 h-full"
+            style={{
+              cursor: "url(/assets/icons/slider_cursor_prev.svg), auto",
+            }}
+          />
+          <CarouselNext
+            variant="none"
+            show={false}
+            className="basis-1/2 h-full"
+            style={{
+              cursor: "url(/assets/icons/slider_cursor_next.svg), auto",
+            }}
+          />
+        </div>
         <div className="flex p-4 items-center justify-between md:hidden">
-          <CarouselPrevious variant="none" />
-          <CarouselNext variant="none" />
+          <CarouselPrevious show={true} variant="none" />
+          <CarouselNext variant="none" show={true} />
         </div>
       </Carousel>
       <Dialog open={isOpen} onOpenChange={onClose}>
