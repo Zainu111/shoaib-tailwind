@@ -46,7 +46,7 @@ export default function page() {
           </div>
           <div className="basis-[40%] overflow-hidden -mt-16">
             <Image
-              src="/assets/about-img.jpg"
+              src="/assets/services-white.jpg"
               className="object-contain"
               width={800}
               height={600}

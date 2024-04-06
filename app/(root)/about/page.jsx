@@ -294,13 +294,13 @@ export default function page() {
                   <div className="new-ip-about-sec4">
                     <div className="sec-inner-wrapper flex ">
                       <div className="sec-col left">
-                        <div className="sec-photo">
-                          <canvas
-                            width={717}
-                            height={966}
-                            style={{
-                              backgroundImage: "url('/assets/about-img.jpg')",
-                            }}
+                        <div className="">
+                          <Image
+                            width={600}
+                            height={600}
+                            className="object-cover object-center mx-auto"
+                            src="/assets/about-sec3.jpg"
+                            alt="sec3"
                           />{" "}
                         </div>
                       </div>
