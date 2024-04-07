@@ -3,10 +3,9 @@ import React from "react";
 function Footer() {
   return (
     <footer className="footer bg-white  border-t border-sothebys-blue pt-18 pb-8 md:pb-3 font-benton text-xs tracking-tight !mx-auto footer-text">
-      <div className="container">
-        <div className="max-w-6xl mx-auto">
+        <div className="max-w-6xl mx-auto px-4 ">
           <div className="md:block">
-            <div className="md:border md:border-x-0 md:border-b-0 md:border-t border-footer-line mx-auto text-center">
+            <div className="md:border  md:border-x-0 md:border-b-0 md:border-t border-footer-line mx-auto text-center">
               <a className="pointer-events-none" aria-label="Homepage" href="/">
                 <img
                   alt="Footer Logo AE"
@@ -31,10 +30,10 @@ function Footer() {
               </p>
             </div>
           </div>
-          <div className="flex flex-col-reverse items-center justify-center py-12 md:flex-row">
-            <div className="w-full md:w-1/3 xl:w-1/2 flex items-center">
-              <div className="font-normal text-left hidden xl:flex items-center tracking-[0.375px]">
-                <span className="mx-1.5 font-acta">Contact us</span>
+          <div className="flex flex-col-reverse items-center justify-center py-12 md:flex-row gap-8">
+            <div className="w-full md:w-1/3 xl:w-1/2 flex items-center md:justify-start md:flex-row flex-wrap  justify-center tracking-[0.375px]">
+              <div className="font-normal text-left flex items-center tracking-[0.375px]">
+                <span className="mx-1.5 font-acta ">Contact us</span>
                 <span
                   id="phone-number-click"
                   className="contact-item py-2.5 px-6 mx-1.5 text-[15px] hover:font-medium flex flex-col w-[75px]"
@@ -178,7 +177,6 @@ function Footer() {
             RIGHTS RESERVED.
           </div>
         </div>
-      </div>
     </footer>
   );
 }
