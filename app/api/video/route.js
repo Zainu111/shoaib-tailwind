@@ -4,7 +4,10 @@ import path from "path";
 function getVideoStream(req) {
   const range = req.headers.get("range");
   if (!range) {
-    return new Response("Ruquires Range Header", { status: 400 });
+    const currentPath = process.cwd();
+    console.log("Current Path:", currentPath);
+
+    return new Response("Ruquires Range Header" + path, { status: 400 });
   }
   const filePath = "./video/intro.mp4"; // Replace with your actual file path
   const videoSize = fs.statSync(filePath).size;
@@ -25,7 +28,10 @@ function getVideoStream(req) {
     end,
   });
 
-  return new Response(videoStram, { status: 206, headers });
+  return new Response(videoStram, {
+    status: 206,
+    // headers
+  });
 }
 export async function GET(req) {
   return getVideoStream(req);

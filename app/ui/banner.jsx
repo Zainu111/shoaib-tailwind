@@ -1,14 +1,14 @@
 "use client";
 import React from "react";
 import Image from "next/image";
+import image1 from "@/public/assets/beach.jpg";
 
-import { CldVideoPlayer } from "next-cloudinary";
-import "next-cloudinary/dist/cld-video-player.css";
-
+// import { CldVideoPlayer } from "next-cloudinary";
+// import "next-cloudinary/dist/cld-video-player.css";
 export default function Banner() {
   return (
-    <section className="w-full relative bg-black pt-[48%] overflow-hidden">
-      <Image src="/assets/beach.jpg" alt="first iamge" fill />
+    <section className="w-full relative  pt-[48%] overflow-hidden">
+      <Image src={image1} placeholder="blur" alt="first iamge" fill  />
       <div className="absolute top-0 left-0 w-full">
         {/* <CldVideoPlayer
           src="pahizwbjznyu3rdd6koh"
