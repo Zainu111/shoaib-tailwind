@@ -17,6 +17,8 @@ function getVideoStream(req) {
     "Accept-Ranges": "bytes",
     "Content-Length": contentLength.toString(),
     "Content-Type": "video/mp4",
+    "Access-Control-Allow-Origin": "https://www.theshoaibshahid.com/", // Replace with your domain
+    "Access-Control-Allow-Methods": "GET", // Allow only GET method
   };
   const videoStram = fs.createReadStream(filePath, {
     start,
