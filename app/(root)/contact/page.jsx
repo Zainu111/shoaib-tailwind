@@ -14,7 +14,7 @@ export default function page() {
           <span className="text-6xl uppercase font-benton text-sothebys-blue">
             Contact
           </span>
-          <h1 className="text-[#949494] mt-4 text-6xl uppercase font-normal flex flex-col max-w-max ml-auto">
+          <h1 className="text-[#949494] mt-4 text-6xl capitalize font-normal flex flex-col max-w-max ml-auto">
             Shoaib
             <span className="ml-[20%] font-bold text-sothebys-blue text-7xl">
               Shahid

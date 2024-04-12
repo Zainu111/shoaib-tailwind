@@ -64,7 +64,7 @@ export default function Home() {
               <div>
                 <div className="flex flex-col">
                   <span className="text-sm font-bold">
-                    Consistently Ranked #1 Top Earner at Christie's
+                    Consistently Ranked #1 Top Earner Previously at Christie's
                     International Real Estate
                   </span>
                 </div>

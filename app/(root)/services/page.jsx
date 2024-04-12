@@ -4,7 +4,8 @@ import Footer from "@/app/ui/footer";
 import HeaderSection from "@/app/ui/headerSection";
 import Image from "next/image";
 import React from "react";
-import image1 from "@/public/assets/a.png"
+import image1 from "@/public/assets/a.png";
+import ServicsDetails from "@/app/ui/ServicesDetail";
 export default function page() {
   return (
     <>
@@ -20,28 +21,30 @@ export default function page() {
       </div>
       <div className="max-w-3xl mx-auto my-16 flex flex-col gap-4">
         <h2 className="text-4xl text-center  text-sothebys-blue font-bold">
-          SPACIOUS RETREATS
+          Rise above the crowed.
         </h2>
         <p className="text-base text-center font-normal font-benton">
-          Gaze across the uninterrupted horizon from your private water villa,
-          suspended over the ocean. Discover the iconic city skylines surrounded
-          by tranquil waterways. Enjoy your front-row seat to the wonders of
-          nature, from a lodge nestled in the foothills of remote jungle, to
-          exceptional suites and expansive villas. Discover a sanctuary you’ll
-          never want to leave.
+          With unparalleled expertise in the luxury segment, Shoaib goes beyond
+          the ordinary to elevate your property buying experience. Rise above
+          the crowd with confidence as we provide a platform for your most
+          important decisions. Shoaib ensures thorough due diligence and takes
+          full responsibility, ensuring peace of mind every step of the way
         </p>
       </div>
       <div className="py-16">
         <div className="max-w-5xl  mx-auto  flex  ">
           <div className="basis-[60%] p-16 bg-sothebys-blue text-white relative after:content-[''] after:absolute after:-right-36 after:-z-10 after:top-0 after:w-36 after:h-full after:bg-sothebys-blue">
             <h2 className="text-4xl mb-4 font-medium">EXCLUSIVELY YOURS</h2>
-            <p className="font-benton font-normal text-base">
-              Nowhere else do the wonders of the planet’s most incredible
-              locations fuse so intimately with the warm feeling of home.
-              Spacious retreats that envelop you in seclusion and seamlessly
-              blend outdoors with in, immersing you in the colours and textures
-              of ‘here’. Offering the finest private amenities and unrivalled
-              personal service. This is living at its very best.
+            <p className="font-benton font-light text-base">
+              <span className="font-acta font-light ">
+                Shoaib <span className="font-semibold text-white">Shahid</span>.
+              </span>{" "}
+              a seasoned Global Real Estate Consultant with a decade of
+              expertise in luxury properties. Shoaib has facilitated numerous
+              High Net Worth Individuals in living and investing in the world's
+              most prestigious destinations. With his exclusive services, he
+              will ensure you receive unparalleled guidance and support for your
+              real estate endeavors.
             </p>
           </div>
           <div className="basis-[40%] overflow-hidden -mt-16">
@@ -57,7 +60,7 @@ export default function page() {
         </div>
       </div>
 
-      <Developments />
+      <ServicsDetails />
       {/* <About /> */}
       <Footer />
     </>
