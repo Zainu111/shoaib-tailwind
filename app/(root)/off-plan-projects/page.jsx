@@ -24,7 +24,9 @@ export default async function page() {
             Discover the pinnacle of luxury living with <b>Shoaib Shahid</b>.
             Explore our handpicked selection of prestigious properties,
             elevating you to a level above the rest. Experience the privilege of
-            owning a truly exceptional home. <span className="font-medium">Welcome to extraordinary living</span>.
+            owning a truly exceptional home.{" "}
+            <span className="font-medium">Welcome to extraordinary living</span>
+            .
           </p>
         </div>
       </section>
@@ -32,7 +34,7 @@ export default async function page() {
         <div className="py-3 md:py-6 flex items-center justify-between font-benton">
           <div className="flex items-center text-sm font-normal text-sothebys-blue">
             <h1 className="font-benton font-medium text-lg text-sothebys-blue">
-              Off-Plan Projects in UAE
+              Projects in UAE
             </h1>
             <span className="font-medium text-gray-400 text-base ml-2">
               ({data?.length})
@@ -51,14 +53,6 @@ export default async function page() {
                     area-label={project.title}
                     href={`/off-plan-projects/${project.slug.current}`}
                   >
-                    <div className="absolute ml-4 mt-5 z-10 flex flex-col items-start gap-y-2">
-                      {project?.handover > 0 && (
-                        <div className="bg-white px-2 py-1 text-xs font-normal rounded-[4px] font-benton">
-                          {project.handover}
-                        </div>
-                      )}
-                    </div>
-
                     <div className="swiper swiper-virtual swiper-initialized swiper-horizontal swiper-watch-progress w-full ">
                       <div>
                         <div>

@@ -11,7 +11,7 @@ export default function page() {
       <HeaderBlack />
       <div className="flex min-h-[500px]">
         <div className="basis-[55%] px-20 py-10">
-          <span className="text-6xl uppercase font-benton text-sothebys-blue">
+          <span className="text-6xl uppercase text-sothebys-blue">
             Contact
           </span>
           <h1 className="text-[#949494] mt-4 text-6xl capitalize font-normal flex flex-col max-w-max ml-auto">
@@ -28,8 +28,8 @@ export default function page() {
               next 5 to 10 minutes.
             </p>
             <p>
-              If you require immediate assistance, please don't hesitate to call
-              or whatsapp us on <strong className="text-sothebys-blue">+971 52 7180606</strong>.
+              If you require immediate assistance, please don't hesitate to <b>call
+              or whatsapp</b> us on <span className="inline-block"><Link href="tel:+971527180606"><strong className="text-sothebys-blue">+971 52 7180606</strong></Link></span>.
             </p>
           </div>
           <form action="#">

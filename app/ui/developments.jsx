@@ -6,10 +6,10 @@ import project2 from "@/public//assets/project2.jpg";
 import project3 from "@/public//assets/project3.jpg";
 export default function Developments() {
   return (
-    <section className="py-6 px-4 bg-white">
+    <section className="py-12 px-4 bg-white">
       <div className="md:px-16 mx-auto">
         <div className="px-5 text-center md:max-w-2xl mx-auto">
-          <h2 className="text-xl md:text-4xl mb-4 uppercase text-sothebys-blue">
+          <h2 className="text-xl md:text-4xl mb-4 text-sothebys-blue font-bold">
             New Developments
           </h2>
           <p className="text-sm">

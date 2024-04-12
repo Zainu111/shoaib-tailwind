@@ -43,16 +43,17 @@ html {
     @apply px-6 py-2 text-xs bg-white border-transparent text-black uppercase cursor-pointer border-[1px];
   }
   .svg svg path,
-  .svg svg rect,.svg svg polygon {
+  .svg svg rect,
+  .svg svg polygon {
     fill: #ffffff;
   }
   .header:hover {
-    @apply bg-white text-black;
+    @apply bg-white text-black ;
   }
+
   .header:hover .svg svg path,
   .header:hover .svg svg rect,
-  .header:hover .svg svg polygon
-   {
+  .header:hover .svg svg polygon {
     fill: #000;
   }
   .header:hover .btn {
@@ -83,7 +84,8 @@ html {
   .header-black .btn {
     @apply px-6 py-2 text-xs bg-white border-transparent text-black uppercase cursor-pointer border-[1px];
   }
-  .header-black  .svg-black svg rect ,.svg-black svg path{
+  .header-black .svg-black svg rect,
+  .svg-black svg path {
     fill: #000;
   }
   .btn-underline {

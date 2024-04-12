@@ -25,7 +25,7 @@ export default function page() {
                           <div className="!text-sothebys-blue">Shahid</div>
                         </div>
 
-                        <div className="ip-about-sec1-text-excerpt wow fadeInRight">
+                        <div className="ip-about-sec1-text-excerpt wow fadeInRight !font-benton">
                           Shoaib Sahid is a highly esteemed global real estate
                           consultant who has over fifteen years experience in
                           international sales, business development and has
@@ -35,7 +35,9 @@ export default function page() {
                           him rank as the top earner for Christie's
                           International Real Estate for three consecutive years.
                           <h2 className="text-2xl !mt-3">
-                            <strong>Expansion. Always, in all ways.</strong>
+                            Redefining Excellence in Luxury Real Estate. Where
+                            Elegance Is More Than a Trait —{" "}
+                            <strong>It's an Attitude</strong>
                           </h2>
                         </div>
                       </div>
@@ -188,7 +190,7 @@ export default function page() {
                   <section className="py-2 tracking-normal">
                     <div className="contaier lg:mx-auto  bg-[#112548]">
                       <Image
-                        src="/assets/aabout.jpg"
+                        src="/assets/about.jpeg"
                         width="1800"
                         height="900"
                         alt="group"
@@ -257,24 +259,33 @@ export default function page() {
                     <div className="ip-about-sec3-inner-wrap flex flex-col md:flex-row">
                       <div className="ip-about-sec3-inner-col col-left">
                         <div className="ip-about-sec3-text">
-                          <div className="ip-about-sec3-text-heading wow fadeInUp !text-sothebys-blue">
-                            Media Mogul
+                          <div className=" !text-sothebys-blue text-4xl font-benton  pr-4">
+                            Global Expertise, Local Excellence:{" "}
+                            <span className="font-bold">
+                              We're International
+                            </span>
                           </div>
-                          <div className="ip-about-sec3-text-excerpt wow fadeInLeft">
-                            <p>
-                              Shaoib Shahid is known as a star of Bravo's
-                              Emmy-nominated Million Dollar Listing New York,
-                              its spin-off show Sell It Like Shaoib Shahid, and
-                              for his appearance in the film While We're Young
-                              alongside Ben Stiller, Naomi Watts, and Adam
-                              Driver.{" "}
+                          <div className="text-base text-black leading-7 mt-6 pr-4 font-acta">
+                            <p className="font-acta">
+                              <b>Chris Whitehead</b>, Managing Partner: With
+                              over three decades of expertise in residential
+                              sales and developments, Chris Whitehead stands as
+                              a visionary leader in the real estate industry. As
+                              the Managing Partner of Dubai Sotheby's
+                              International Realty, Chris brings unparalleled
+                              insight and a track record of success to every
+                              venture.
                             </p>
-                            <p>
-                              Shaoib Shahid is a frequent guest on broadcast,
-                              cable, and digital news networks, including NBC,
-                              ABC, CNBC, CNN, Buzzfeed, and others. He is also a
-                              contributor to Forbes, where he writes a column
-                              about real estate, sales, and branding.
+                            <br />
+                            <p className="font-acta">
+                              <b>Marcus</b>, Head of The Family Office -
+                              Consultant: UK Marcus is a seasoned professional
+                              with a remarkable portfolio of achievements. Over
+                              the past decade, he has orchestrated numerous
+                              record-breaking deals, including the sale of the
+                              most expensive residential property in the UK and
+                              the negotiation of the most valuable rental
+                              contract in British history.
                             </p>
                           </div>
                         </div>
@@ -291,55 +302,7 @@ export default function page() {
                       </div>
                     </div>
                   </div>
-                  <div className="new-ip-about-sec4">
-                    <div className="sec-inner-wrapper flex ">
-                      <div className="sec-col left">
-                        <div className="">
-                          <Image
-                            width={600}
-                            height={600}
-                            className="object-cover object-center mx-auto"
-                            src="/assets/about-sec3.jpg"
-                            alt="sec3"
-                          />{" "}
-                        </div>
-                      </div>
-                      <div className="sec-col right">
-                        <div className="ip-about-sec4-text-heading wow fadeInUp !text-sothebys-blue">
-                          Community Leader
-                        </div>
-                        <div className="ip-about-sec4-text-excerpt wow fadeInLeft">
-                          <p>
-                            Shaoib Shahid is focused on developing inspiring
-                            sales and lifestyle communities through education
-                            and writing. His best-selling book and innovative
-                            real estate sales course of the same name, Sell It
-                            Like Shaoib Shahid, are inside looks at all of
-                            Shaoib Shahid's sales strategies and techniques.{" "}
-                          </p>
-                          <p>
-                            Big Money Energy, which began as a weekly newsletter
-                            in 2019, is now a full-fledged community with
-                            hundreds of thousands of subscribers and a companion
-                            book focused on helping individuals tap into their
-                            inner confidence and positive energy to change their
-                            lives.{" "}
-                          </p>
-                          <p>
-                            The purpose of both initiatives is to give others
-                            the roadmap Shaoib Shahid used to go from struggling
-                            actor and novice real estate agent to leader of a
-                            multi-hundred-million-dollar sales team and CEO of
-                            the most followed brokerage brand in the world.{" "}
-                          </p>
-                          <p>
-                            Shaoib Shahid is an active supporter of Project
-                            Sunshine and City Harvest, among others.{" "}
-                          </p>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
+
                   <div className="new-ip-about-sec5">
                     <div className="sec-inner-wrapper">
                       <div className="sec-col right">

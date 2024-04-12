@@ -78,12 +78,12 @@ export default function HeaderSection() {
             services
           </Link>
 
-          <Link
+          {/* <Link
             className="text-sm capitalize hover:text-gray-400 transition-all"
             href="/"
           >
             Achievements
-          </Link>
+          </Link> */}
           <Link
             className="text-sm capitalize hover:text-gray-400 transition-all"
             href="/about"
@@ -128,9 +128,9 @@ export default function HeaderSection() {
           >
             services
           </Link>
-          <Link href="/" className="capitalize" onClick={() => setMenu(false)}>
+          {/* <Link href="/" className="capitalize" onClick={() => setMenu(false)}>
             Achievements
-          </Link>
+          </Link> */}
           <Link
             href="/about"
             className="capitalize"

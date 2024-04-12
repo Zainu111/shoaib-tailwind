@@ -1,54 +1,50 @@
 import Image from "next/image";
 import Link from "next/link";
 import React from "react";
-import project1 from "@/public//assets/project1.jpg";
-import project2 from "@/public//assets/project2.jpg";
-import project3 from "@/public//assets/project3.jpg";
+import project1 from "@/public//assets/cIMG_8191.jpg";
+import project2 from "@/public//assets/pj.jpg";
+import project3 from "@/public//assets/car.jpg";
 export default function ServicsDetails() {
   return (
     <section className="py-6 px-4 bg-white">
       <div className="md:px-16 mx-auto">
-        <div className="px-5 text-center md:max-w-2xl mx-auto">
-          <h2 className="text-xl md:text-4xl mb-4 uppercase text-sothebys-blue">
+        <div className="px-5 text-center  mx-auto">
+          <h2 className="text-xl md:text-4xl mb-4  text-sothebys-blue md:max-w-2xl mx-auto">
             Our exclusive services aren't for everyone, but they could be for
             you.
           </h2>
-          <p className="text-sm">
-            Discover meticulously crafted homes exuding luxury and
-            sophistication. Explore urban residences and countryside retreats
-            redefining modern living.
+          <p className="text-sm text-center max-w-max mx-auto leading-loose">
+           
+              <b>Personalized Attention:</b> Tailored services that cater to the
+              unique needs and preferences of each client.
+            <br />
+              <b>Expert Market Knowledge:</b> In-depth understanding of local
+              and global real estate markets, trends, and opportunities.
+            <br />
+            <b>Access to Exclusive Properties:</b> Access to a curated selection
+            of luxury properties, including off-market listings and private
+            estates.
+            <br />
+            <b>Network of Professionals:</b> Connections with top architects,
+            interior designers, lawyers, and financial advisors to ensure a
+            seamless transaction process.
+            <br />
+            <b>Privacy and Discretion:</b> Respect for client confidentiality
+            and the ability to handle high-profile transactions with discretion.
+            <br />
+            <b>Exceptional Customer Service:</b> Prompt responsiveness, clear
+            communication, and a commitment to exceeding client expectations.
+            <br />
+            <b>End-to-End Support:</b> Comprehensive assistance throughout the
+            entire real estate journey, from property search to closing and
+            beyond.
+            <br />
+            <b>Value-added Services:</b> Additional offerings such as property
+            management, concierge services, and investment advice to enhance the
+            client experience.
           </p>
         </div>
-        <div className="grid grid-cols-1 pt-7 gap-8 md:grid-cols-2 lg:grid-cols-3 ">
-          <div className="flex flex-col">
-            <div className="w-full h-[300px] overflow-hidden relative">
-              <Image
-                src={project1}
-                className="object-cover"
-                fill={true}
-                alt="project one"
-                placeholder="blur"
-              />
-            </div>
-            <div className="flex flex-col pt-4 gap-3 justify-between ">
-              <h3 className="text-base font-normal text-black ">
-                <span className="font-semibold text-sothebys-blue">
-                  Expect the Unexpected:
-                </span>{" "}
-                Embark on a Luxurious Journey with Us.
-              </h3>
-              <ul className=" mb-2 grid grid-cols-2 list-disc p-4 gap-4 font-benton font-medium text-xs">
-                <li>Personalized Attention</li>
-                <li>Expert Market Knowledge</li>
-                <li>Access to Exclusive Properties</li>
-                <li>Network of Professionals</li>
-                <li>Privacy and Discretion</li>
-                <li>Exceptional Customer Service</li>
-                <li>End-to-End Support</li>
-                <li>Value-added Services</li>
-              </ul>
-            </div>
-          </div>
+        <div className="grid grid-cols-1 pt-7 gap-8 md:grid-cols-2 lg:grid-cols-2 ">
           <div className="flex flex-col">
             <div className="w-full h-[300px] overflow-hidden relative">
               <Image
@@ -60,24 +56,19 @@ export default function ServicsDetails() {
                 priority
               />
             </div>
-            <div className="flex flex-col flex-grow flex-shrink pt-4 gap-3 justify-between ">
+            <div className="flex flex-col pt-4 gap-3 ">
               <h3 className="text-base font-normal text-black ">
                 <span className="font-semibold text-sothebys-blue">
-                  Atlantis, The Royal Residences:
+                  Sky-high Luxury:
                 </span>{" "}
-                Where Luxury Meets Iconic Architecture in Dubai
+                Your Ultimate Luxury Experience Begins Now.
               </h3>
               <p className="text-sm mb-2">
-                Atlantis, The Royal, a pinnacle of luxury in Dubai, crafted by
-                renowned teams like Kohn Pedersen Fox Associates, Sybille de
-                Margerie, and WET Design. Six towers linked by a 90-meter sky
-                bridge merge classic and modern styles. Kerzner International's
-                Atlantis The Royal Residences redefine opulence with iconic
-                architecture and lavish amenities.
+                Experience Our Exclusive Services, Including Private Jet Rentals
+                for a Seamless Trip from Your Home to Dubai, Ensuring Peace of
+                Mind for You and Your Family. Your Ultimate Luxury Experience
+                Awaits.
               </p>
-              <Link className="btn-underline" href="#">
-                Explore
-              </Link>
             </div>
           </div>
           <div className="flex flex-col">
@@ -91,24 +82,19 @@ export default function ServicsDetails() {
                 alt="project three"
               />
             </div>
-            <div className="flex flex-col flex-grow flex-shrink pt-4 gap-3 justify-between ">
+            <div className="flex flex-col pt-4 gap-3 ">
               <h3 className="text-base font-normal text-black ">
                 <span className="font-semibold text-sothebys-blue">
-                  Baccarat Residences:
+                  Elegance Unveiled:
                 </span>{" "}
-                Exquisite Luxury Living in Downtown Dubai
+                Redefining Luxury in Every Viewing Experience
               </h3>
               <p className="text-sm mb-2">
-                Baccarat Residences in Downtown Dubai present exclusive luxury
-                living near Dubai Mall and Burj Khalifa. Featuring 42 private
-                residences influenced by the brand's crystal artistry, designed
-                by Studio Libeskind and 1508 London. Offering three to
-                four-bedroom apartments and penthouses with breathtaking city
-                vistas.
+                Indulge in Luxury from the Moment You Touch Down: Our Exclusive
+                Airport Pick-Up and Drop-Off Services Ensure a Seamless
+                Transition to Your Hotel and Property Viewings. Rest Assured,
+                Your Experience Will Be Nothing Short of Unforgettable
               </p>
-              <Link className="btn-underline" href="#">
-                Explore
-              </Link>
             </div>
           </div>
         </div>

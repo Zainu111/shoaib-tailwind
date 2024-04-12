@@ -43,7 +43,7 @@ export default function Home() {
         <div className="w-full h-[600px] aspect-video overflow-hidden">
           <div className="absolute top-[50%] -translate-y-[50%] p-8 left-10 w-[50%] font-benton bg-sothebys-blue text-white">
             <div className="flex flex-col gap-4">
-              <h3 className="text-4xl font-bold">
+              <h3 className="text-4xl font-bold font-acta">
                 Global Real Estate Consultant
               </h3>
               <p className="text-sm">

@@ -2,6 +2,7 @@
 import React from "react";
 import Image from "next/image";
 import image1 from "@/public/assets/beach.jpg";
+import Link from "next/link";
 
 // import { CldVideoPlayer } from "next-cloudinary";
 // import "next-cloudinary/dist/cld-video-player.css";
@@ -38,9 +39,9 @@ export default function Banner() {
           <span className="font-semibold">Pioneering Prestige:</span> Where
           Luxury Meets Exceptional Service
         </h2>
-        <button className="py-3 px-9 font-benton text-white border transition-all duration-300 hover:bg-sothebys-blue hover:border-sothebys-blue">
+        <Link href="/off-plan-project" className="py-3 px-9 font-benton text-white border transition-all duration-300 hover:bg-sothebys-blue hover:border-sothebys-blue">
           Explore
-        </button>
+        </Link>
       </div>
     </section>
   );
