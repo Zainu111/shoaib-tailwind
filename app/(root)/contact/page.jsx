@@ -11,19 +11,22 @@ export default function page() {
       <HeaderBlack />
       <div className="flex min-h-[500px] flex-col-reverse lg:flex-row">
         <div className="basis-full lg:basis-[55%] px-4 md:px-20 py-10">
-          {/* <div className="flex gap-1"> */}
-            
-            <h1 className="text-[#949494] text-3xl lg:text-6xl capitalize font-normal flex flex-row gap-1 max-w-max">
-            <span className="text-3xl lg:text-6xl capitalize text-sothebys-blue">
-              Contact 
-            </span> Shoaib{" "}
-              <span className="font-bold text-sothebys-blue text-3xl lg:text-6xl">
+          <div className="flex flex-col gap-2">
+            <span className="text-3xl md:text-6xl capitalize text-sothebys-blue">
+              Contact
+            </span>
+            <h1 className="text-[#949494] text-3xl md:text-6xl capitalize font-normal flex flex-row gap-1 max-w-max">
+              Shoaib{" "}
+              <span className="font-bold text-sothebys-blue text-3xl md:text-6xl">
                 Shahid.
               </span>
             </h1>
-          {/* </div> */}
+          </div>
           <div className="flex flex-col gap-4 mt-8">
-            <h3 className="text-2xl md:text-5xl text-sothebys-blue"> Get in touch</h3>
+            <h3 className="text-2xl md:text-5xl text-sothebys-blue">
+              {" "}
+              Get in touch
+            </h3>
             <p>
               Please complete the form below, and your message will be promptly
               delivered to the appropriate personnel who will respond within the
