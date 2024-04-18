@@ -3,145 +3,87 @@ import React from "react";
 export default function page() {
   return (
     <div className="max-w-6xl mx-auto my-12">
-        <h1 className="text-4xl text-center my-8">Gallery</h1>
-      <div class="grid grid-cols-2 md:grid-cols-3 gap-4">
-        <div class="grid gap-4">
+      <h1 className="text-4xl text-center my-8">Gallery</h1>
+      <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-4">
+        <div className="flex flex-col gap-4">
+        <div>
+            <img
+              className="h-auto max-w-full rounded-lg"
+              src="/assets/about/ten.jpeg"
+              alt=""
+            />
+          </div>
+          
           <div>
             <img
-              class="h-auto max-w-full rounded-lg"
-              src="https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image.jpg"
+              className="h-auto max-w-full rounded-lg"
+              src="/assets/about/one.jpg"
               alt=""
             />
           </div>
           <div>
             <img
-              class="h-auto max-w-full rounded-lg"
-              src="https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image-1.jpg"
+              className="h-auto max-w-full rounded-lg"
+              src="/assets/about/two.jpg"
               alt=""
             />
           </div>
           <div>
             <img
-              class="h-auto max-w-full rounded-lg"
-              src="https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image-2.jpg"
-              alt=""
-            />
-          </div>
-        </div>
-        <div class="grid gap-4">
-          <div>
-            <img
-              class="h-auto max-w-full rounded-lg"
-              src="https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image-3.jpg"
-              alt=""
-            />
-          </div>
-          <div>
-            <img
-              class="h-auto max-w-full rounded-lg"
-              src="https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image-4.jpg"
-              alt=""
-            />
-          </div>
-          <div>
-            <img
-              class="h-auto max-w-full rounded-lg"
-              src="https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image-5.jpg"
+              className="h-auto max-w-full rounded-lg"
+              src="/assets/about/three.jpg"
               alt=""
             />
           </div>
         </div>
-        <div class="grid gap-4">
+        <div className="flex flex-col gap-4">
           <div>
             <img
-              class="h-auto max-w-full rounded-lg"
-              src="https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image-6.jpg"
+              className="h-auto max-w-full rounded-lg"
+              src="/assets/about/four.jpg"
               alt=""
             />
           </div>
           <div>
             <img
-              class="h-auto max-w-full rounded-lg"
-              src="https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image-7.jpg"
+              className="h-auto max-w-full rounded-lg"
+              src="/assets/about/five.jpg"
               alt=""
             />
           </div>
           <div>
             <img
-              class="h-auto max-w-full rounded-lg"
-              src="https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image-8.jpg"
-              alt=""
-            />
-          </div>
-        </div>
-        <div class="grid gap-4">
-          <div>
-            <img
-              class="h-auto max-w-full rounded-lg"
-              src="https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image.jpg"
-              alt=""
-            />
-          </div>
-          <div>
-            <img
-              class="h-auto max-w-full rounded-lg"
-              src="https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image-1.jpg"
-              alt=""
-            />
-          </div>
-          <div>
-            <img
-              class="h-auto max-w-full rounded-lg"
-              src="https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image-2.jpg"
+              className="h-auto max-w-full rounded-lg"
+              src="/assets/about/six.jpg"
               alt=""
             />
           </div>
         </div>
-        <div class="grid gap-4">
+        <div className="flex flex-col gap-4">
           <div>
             <img
-              class="h-auto max-w-full rounded-lg"
-              src="https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image-3.jpg"
+              className="h-auto max-w-full rounded-lg"
+              src="/assets/about/seven.jpeg"
               alt=""
             />
           </div>
           <div>
             <img
-              class="h-auto max-w-full rounded-lg"
-              src="https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image-4.jpg"
+              className="h-auto max-w-full rounded-lg"
+              src="/assets/about/eight.jpeg"
               alt=""
             />
           </div>
           <div>
             <img
-              class="h-auto max-w-full rounded-lg"
-              src="https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image-5.jpg"
+              className="h-auto max-w-full rounded-lg"
+              src="/assets/about/nine.jpeg"
               alt=""
             />
           </div>
         </div>
-        <div class="grid gap-4">
-          <div>
-            <img
-              class="h-auto max-w-full rounded-lg"
-              src="https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image-6.jpg"
-              alt=""
-            />
-          </div>
-          <div>
-            <img
-              class="h-auto max-w-full rounded-lg"
-              src="https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image-7.jpg"
-              alt=""
-            />
-          </div>
-          <div>
-            <img
-              class="h-auto max-w-full rounded-lg"
-              src="https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image-8.jpg"
-              alt=""
-            />
-          </div>
+        <div className="flex flex-col gap-4">
+         
         </div>
       </div>
     </div>

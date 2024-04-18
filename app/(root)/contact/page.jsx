@@ -23,10 +23,6 @@ export default function page() {
             </h1>
           </div>
           <div className="flex flex-col gap-4 mt-8">
-            <h3 className="text-2xl md:text-5xl text-sothebys-blue">
-              {" "}
-              Get in touch
-            </h3>
             <p>
               Please complete the form below, and your message will be promptly
               delivered to the appropriate personnel who will respond within the
@@ -88,7 +84,7 @@ export default function page() {
         <div className="basis-full lg:basis-[45%] relative ">
           <Image
             className="w-full object-cover"
-            src="/assets/about-img.jpg"
+            src="/assets/contact.jpg"
             width={900}
             height={1200}
             alt="image"
