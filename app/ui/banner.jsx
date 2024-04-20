@@ -39,7 +39,7 @@ export default function Banner() {
           <span className="font-semibold">Pioneering Prestige:</span> Where
           Luxury Meets Exceptional Service
         </h2>
-        <Link href="/off-plan-project" className="py-3 px-9 font-benton text-white border transition-all duration-300 hover:bg-sothebys-blue hover:border-sothebys-blue">
+        <Link href="/off-plan-projects/amali-island" className="py-3 px-9 font-benton text-white border transition-all duration-300 hover:bg-sothebys-blue hover:border-sothebys-blue">
           Explore
         </Link>
       </div>
