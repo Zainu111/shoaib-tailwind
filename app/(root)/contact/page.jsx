@@ -47,7 +47,7 @@ export default function page() {
         <div className="basis-full lg:basis-[45%] relative ">
           <Image
             className="w-full object-cover"
-            src="/assets/contact.jpg"
+            src="/assets/about-sec3.jpg"
             width={900}
             height={1200}
             alt="image"
