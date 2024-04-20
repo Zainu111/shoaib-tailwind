@@ -18,7 +18,7 @@ export default async function page() {
   return (
     <>
       <HeaderBlack />
-      <section className="container px-4">
+      <section className="container px-4 pt-20 md:pt-36">
         <div className="max-w-3xl">
           <p className="text-base">
             Discover the pinnacle of luxury living with <b>Shoaib Shahid</b>.

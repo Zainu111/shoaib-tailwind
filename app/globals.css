@@ -67,7 +67,7 @@ html {
   }
 
   .header-black {
-    @apply w-full bg-transparent  px-8  text-black;
+    @apply w-full bg-white absolute top-0 left-0 right-0  px-8  text-black z-10;
   }
   .header-black .btn {
     @apply px-6 py-2 text-xs bg-white border-transparent text-black uppercase cursor-pointer border-[1px];

@@ -7,7 +7,7 @@ export default function page() {
   return (
     <>
       <HeaderBlack />
-      <div className="">
+      <div className="pt-20 md:pt-36">
         <div className="container">
           <div id="content-full">
             <article id="content" className="hfeed">

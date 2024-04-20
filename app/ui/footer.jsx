@@ -114,7 +114,7 @@ function Footer() {
                     style={{ color: "transparent" }}
                   />
                 </Link>
-                <Link
+                {/* <Link
                   href="https://www.youtube.com/channel/UC-WmTnUG3PTE1Et7tsEW-sQ"
                   target="_blank"
                   className="mx-3"
@@ -131,7 +131,7 @@ function Footer() {
                     src="https://sothebysrealty.ae/assets/icons/youtube.svg"
                     style={{ color: "transparent" }}
                   />
-                </Link>
+                </Link> */}
                 <Link
                   href="https://www.facebook.com/shoaib.shahid.90"
                   target="_blank"

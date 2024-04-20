@@ -22,9 +22,14 @@ export default function HeaderBlack() {
     return () => {
       window.removeEventListener("scroll", handleScroll);
     };
-  }, []); 
+  }, []);
   return (
-    <header className={cn("header-black", { "fixed w-full top-0 left-0 z-30 shadow-md bg-white text-black": isSticky })}>
+    <header
+      className={cn("header-black", {
+        "fixed w-full top-0 left-0 z-30 shadow-md bg-white text-black":
+          isSticky,
+      })}
+    >
       <div className="w-full flex items-center justify-between pt-4 py-2">
         <div className="flex flex-col">
           <Link
@@ -35,7 +40,7 @@ export default function HeaderBlack() {
           </Link>
           <div className="text-xs flex items-center gap-1 font-benton">
             <div>Associate Director at</div>{" "}
-            <div className="svg-black mt-[2px]" >
+            <div className="svg-black mt-[2px]">
               <Sothebys width="100" />
             </div>
           </div>
@@ -71,7 +76,10 @@ export default function HeaderBlack() {
           >
             projects
           </Link>
-          <Link href="/services" className="text-sm capitalize hover:text-gray-400 transition-all">
+          <Link
+            href="/services"
+            className="text-sm capitalize hover:text-gray-400 transition-all"
+          >
             services
           </Link>
           <Link
@@ -124,7 +132,11 @@ export default function HeaderBlack() {
           >
             services
           </Link>
-          <Link href="/gallery" className="capitalize" onClick={() => setMenu(false)}>
+          <Link
+            href="/gallery"
+            className="capitalize"
+            onClick={() => setMenu(false)}
+          >
             Gallery
           </Link>
           <Link
