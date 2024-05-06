@@ -70,7 +70,7 @@ export default async function page() {
                   <section className="p-5 space-y-4">
                     <section className="space-y-3">
                       <div className="flex items-center gap-x-2 font-benton text-xs font-normal text-gray-500">
-                        {project.category.map((item, key) => (
+                        {project?.category?.map((item, key) => (
                           <div key={key} className="flex items-center gap-x-2">
                             {key != 0 && (
                               <div className="bg-gray-400 h-3 w-[1px]" />
