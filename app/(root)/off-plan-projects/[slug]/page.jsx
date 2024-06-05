@@ -7,7 +7,7 @@ import { client } from "@/sanity/lib/client";
 import Link from "next/link";
 import { AddForm } from "@/components/AddForm";
 import Footer from "@/app/ui/footer";
-export const revalidate = 0; // revalidate at most 30 seconds
+export const revalidate = 300; // revalidate at most 30 seconds
 
 async function getData(slug) {
   const query = `
@@ -83,7 +83,6 @@ export default async function page({ params }) {
                     </div>
                   </div>
                   <div className="flex md:ml-[30px] items-center property-bottom-links">
-                 
                     <Link
                       href="#contact"
                       className="text-sm py-3 px-9 max-w-max font-benton text-bkack border border-black transition-all duration-300 hover:bg-sothebys-blue hover:border-sothebys-blue hover:text-white"
