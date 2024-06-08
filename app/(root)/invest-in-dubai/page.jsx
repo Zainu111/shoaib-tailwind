@@ -48,7 +48,7 @@ const page = () => {
                   className="w-[200px] h-[100px]"
                   alt="home"
                 />
-                <h3 className="text-4xl text-white font-benton font-bold ">
+                <h3 className="text-2xl md:text-4xl text-white font-benton font-bold ">
                   Global Financial Hub
                 </h3>
               </div>
@@ -67,7 +67,7 @@ const page = () => {
                   className="w-[200px] h-[100px]"
                   alt="home"
                 />
-                <h3 className="text-4xl text-white font-benton font-bold ">
+                <h3 className="text-2xl md:text-4xl text-white font-benton font-bold ">
                   A magnet for businesses and investors
                 </h3>
               </div>
@@ -87,7 +87,7 @@ const page = () => {
                   className="w-[200px] h-[100px]"
                   alt="home"
                 />
-                <h3 className="text-4xl text-white font-benton font-bold text-center">
+                <h3 className="text-2xl md:text-4xl text-white font-benton font-bold text-center">
                   Connecting the world
                 </h3>
               </div>
@@ -101,7 +101,7 @@ const page = () => {
                   className="w-[200px] h-[100px]"
                   alt="home"
                 />
-                <h3 className="text-4xl text-white font-benton font-bold text-center">
+                <h3 className="text-2xl md:text-4xl text-white font-benton font-bold text-center">
                   Global hub for talent
                 </h3>
               </div>
@@ -115,7 +115,7 @@ const page = () => {
                   className="w-[200px] h-[100px]"
                   alt="home"
                 />
-                <h3 className="text-4xl text-white font-benton font-bold text-center">
+                <h3 className="text-2xl md:text-4xl text-white font-benton font-bold text-center">
                   Future Forward
                 </h3>
               </div>
@@ -200,7 +200,7 @@ const page = () => {
                     height={100}
                     alt="home"
                   />
-                  <h3 className="text-4xl text-white font-benton font-bold ">
+                  <h3 className="text-2xl md:text-4xl text-white font-benton font-bold ">
                     Dubai
                   </h3>
                 </div>
@@ -216,7 +216,7 @@ const page = () => {
                     height={100}
                     alt="home"
                   />
-                  <h3 className="text-4xl text-white font-benton font-bold ">
+                  <h3 className="text-2xl md:text-4xl text-white font-benton font-bold ">
                     Investment
                   </h3>
                 </div>
@@ -235,7 +235,7 @@ const page = () => {
                     height={100}
                     alt="home"
                   />
-                  <h3 className="text-4xl text-white font-benton font-bold ">
+                  <h3 className="text-2xl md:text-4xl text-white font-benton font-bold ">
                     Economic Hub
                   </h3>
                 </div>
@@ -248,7 +248,7 @@ const page = () => {
                     height={100}
                     alt="home"
                   />
-                  <h3 className="text-4xl text-white font-benton font-bold ">
+                  <h3 className="text-2xl md:text-4xl text-white font-benton font-bold ">
                     Global leader
                   </h3>
                 </div>
@@ -261,7 +261,7 @@ const page = () => {
                     height={100}
                     alt="home"
                   />
-                  <h3 className="text-4xl text-white font-benton font-bold ">
+                  <h3 className="text-2xl md:text-4xl text-white font-benton font-bold ">
                     Talent Hub
                   </h3>
                 </div>
@@ -362,11 +362,15 @@ const page = () => {
         </div>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-4 my-10 text-white">
           <div className="bg-[#005F66] p-4 rounded-xl">
-            <h3 className="text-3xl mb-4">60% of Dubai's land area</h3>
+            <h3 className="text-3xl mb-4 font-benton">
+              60% of Dubai's land area
+            </h3>
             <p>will comprise nature reserves & rural areas by year 2040.</p>
           </div>
           <div className="bg-[#005F66] p-4 rounded-xl">
-            <h3 className="text-3xl mb-4">+16% year-on-year price rise</h3>
+            <h3 className="text-3xl mb-4 font-benton">
+              +16% year-on-year price rise
+            </h3>
             <p>in Dubai's property market, second fastest worldwide.</p>
           </div>
         </div>
