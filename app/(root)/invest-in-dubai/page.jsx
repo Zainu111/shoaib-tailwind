@@ -450,7 +450,7 @@ const page = () => {
       </section>
       <section className="px-4 max-w-4xl mx-auto">
         <h2 className="text-4xl font-benton font-medium my-8">
-          Key Investment Sectors Under the D_33
+          Key Investment Sectors Under the D-33
         </h2>
 
         <ul className="grid grid-cols-1 gap-4 my-10 text-white">
