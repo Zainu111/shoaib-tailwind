@@ -17,7 +17,7 @@ const page = () => {
             className="w-full h-auto object-cover"
           />
           <div className="absolute inset-0 flex items-center justify-start">
-            <h1 className="text-white text-4xl md:text-6xl font-bold pl-20">
+            <h1 className="text-white text-2xl md:text-6xl font-bold ml-4 md:ml-20">
               Invest in Dubai
             </h1>
           </div>
