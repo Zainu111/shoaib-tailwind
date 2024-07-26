@@ -46,8 +46,8 @@ export default function page() {
                       <div className="">
                         <img
                           alt="Shaoib Shahid"
-                          className=" lazyloaded"
-                          src="/assets/about1.jpg"
+                          className="lazyloaded"
+                          src="/assets/IMG_5620.jpg"
                         />
                       </div>
                     </div>
