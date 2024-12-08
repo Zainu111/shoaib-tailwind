@@ -12,7 +12,7 @@ export default function Banner() {
       {/* <Image src={image1} placeholder="blur" alt="first iamge" fill  /> */}
       <div className="absolute top-0 left-0 w-full   bg-[url('/assets/beach.jpg')] bg-cover bg-center bg-no-repeat ">
         <CldVideoPlayer
-          src="pahizwbjznyu3rdd6koh"
+          src="banner_xnlzcb"
           controls={false}
           autoplay={true}
           playsinline={true}
