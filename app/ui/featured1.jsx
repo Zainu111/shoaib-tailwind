@@ -3,7 +3,7 @@ import React from "react";
 import Baccarat from "../icons/Baccarat";
 import redseaicon from "@/public/assets/red_sea-icon.svg";
 import Link from "next/link";
-import feature from "@/public/assets/featured_four_seasons.jpg";
+import feature from "@/public/assets/red_sea_beach.jpg";
 import featureBack from "@/public/assets/feature2Bg.jpg";
 export default function Featured1() {
   return (
