@@ -4,7 +4,7 @@ import Baccarat from "../icons/Baccarat";
 import redseaicon from "@/public/assets/red_sea-icon.svg";
 import Link from "next/link";
 import feature from "@/public/assets/featured_four_seasons.jpg";
-import featureBack from "@/public/assets/red_sea_beach.jpg";
+import featureBack from "@/public/assets/feature2Bg.jpg";
 export default function Featured1() {
   return (
     <section className="w-full lg:h-[120vh] relative overflow-hidden">
@@ -38,7 +38,7 @@ export default function Featured1() {
           <p className="text-sm">Excellence that endures</p>
           <Link
             className="py-3 px-9 max-w-max font-benton text-bkack border border-black transition-all duration-300 hover:bg-sothebys-blue hover:border-sothebys-blue hover:text-white"
-            href="/off-plan-projects/baccarat-hotel-and-residences"
+            href="/off-plan-projects/four-seasons-private-residences-red-sea-global"
           >
             Explore
           </Link>

@@ -45,7 +45,7 @@ export default async function page({ params }) {
                             <div>
                               <span className="text-xs">price from </span>{" "}
                               {data.price}
-                              AED
+                              
                             </div>
                           )}
                           <div className="flex items-center gap-x-2">

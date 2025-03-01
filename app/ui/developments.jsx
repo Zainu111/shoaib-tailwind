@@ -110,7 +110,7 @@ export default function Developments() {
               </p>
               <Link
                 className="btn-underline"
-                href="/off-plan-projects/baccarat-hotel-and-residences"
+                href="/off-plan-projects/four-seasons-private-residences-red-sea-global"
               >
                 Explore
               </Link>
