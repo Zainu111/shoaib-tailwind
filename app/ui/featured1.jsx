@@ -5,10 +5,11 @@ import redseaicon from "@/public/assets/red_sea-icon.svg";
 import Link from "next/link";
 import feature from "@/public/assets/red_sea_beach.jpg";
 import featureBack from "@/public/assets/feature2Bg.jpg";
+
 export default function Featured1() {
   return (
-    <section className="w-full lg:h-[120vh] relative overflow-hidden">
-      <div className="fixed top-0 left-0 -z-10  w-full h-full hidden lg:block ">
+    <section className="w-full h-[120vh] relative overflow-hidden">
+      <div className="fixed top-0 left-0 -z-10 w-full h-full">
         <Image
           src={featureBack}
           placeholder="blur"
@@ -17,8 +18,8 @@ export default function Featured1() {
           alt="featured"
         />
       </div>
-      <div className="border-b  max-w-5xl py-16 flex flex-col lg:flex-row items-center  gap-8 lg:absolute lg:bottom-0 lg:left-0 bg-white">
-        <div className="">
+      <div className="border-b max-w-5xl md:py-16 flex  md:flex-row flex-col-reverse items-center gap-8 absolute bottom-0 left-0 bg-white">
+        <div>
           <Image
             src={feature}
             placeholder="blur"
@@ -27,17 +28,17 @@ export default function Featured1() {
             alt="featured"
           />
         </div>
-        <div className="flex flex-col gap-8 items-center lg:px-8 justify-center ">
+        <div className="flex flex-col gap-8 items-center px-8 justify-center">
           <Image
             src={redseaicon}
-            width={306}
-            height={118}
-            className="w-21 h-21"
+            width={200}
+            height={100}
+            className="w-22 h-[10rem]"
             alt="featured"
           />
           <p className="text-sm">Excellence that endures</p>
           <Link
-            className="py-3 px-9 max-w-max font-benton text-bkack border border-black transition-all duration-300 hover:bg-sothebys-blue hover:border-sothebys-blue hover:text-white"
+            className="py-3 px-9 max-w-max font-benton text-black border border-black transition-all duration-300 hover:bg-sothebys-blue hover:border-sothebys-blue hover:text-white"
             href="/off-plan-projects/four-seasons-private-residences-red-sea-global"
           >
             Explore
