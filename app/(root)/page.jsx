@@ -10,7 +10,6 @@ import CallToAction from "../ui/cta";
 import Footer from "../ui/footer";
 import HeaderSection from "../ui/headerSection";
 import { Button } from "@/components/ui/button";
-import { signIn } from "@/auth";
 
 export default function Home() {
   return (
