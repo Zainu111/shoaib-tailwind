@@ -45,7 +45,7 @@ export const metadata = {
 
   twitter: {
     card: "summary_large_image",
-    title: "Shoaib Shahid - Global Real Estate Consultant",
+    title: "Shoaib Shahid - Global Real Estate Consultant.",
     description:
       "Over $1.5B in luxury real estate sales. Trusted advisor in off-plan investments and international property management.",
     images: ["https://www.theshoaibshahid.com/assets/service.jpeg"],
