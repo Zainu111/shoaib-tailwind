@@ -7,19 +7,7 @@ function Footer() {
         <div className="max-w-6xl mx-auto px-4 ">
           <div className="md:block">
             <div className="md:border  md:border-x-0 md:border-b-0 md:border-t border-footer-line mx-auto text-center">
-              <a className="pointer-events-none" aria-label="Homepage" href="/">
-                <img
-                  alt="Footer Logo AE"
-                  loading="lazy"
-                  width="250"
-                  height="50"
-                  decoding="async"
-                  data-nimg="1"
-                  className="mx-auto mt-8 md:mt-11 inline-block pointer-events-auto"
-                  style={{ color: "transparent" }}
-                  src="https://sothebysrealty.ae/assets/images/logo_ae.svg"
-                />
-              </a>
+             
               <p className="mt-9 max-w-3xl mx-auto font-normal font-benton tracking-[0.375px] text-[#111111] text-xs">
                 Dubai Sotheby's International Realty
                 <br />

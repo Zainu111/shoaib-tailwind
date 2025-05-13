@@ -36,12 +36,7 @@ export default function HeaderSection() {
           >
             Shoaib <span className="font-semibold">Shahid.</span>
           </Link>
-          <span className="text-xs flex items-center  font-benton gap-1">
-            <div>Associate Director at</div>{" "}
-            <div className="svg mt-[2px]">
-              <Sothebys width="100" isSticky={isSticky} />
-            </div>
-          </span>
+          
         </div>
         <div className="flex gap-4 items-center">
           <div className="hidden md:flex gap-4">

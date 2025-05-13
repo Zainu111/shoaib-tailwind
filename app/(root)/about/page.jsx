@@ -17,7 +17,7 @@ export const metadata = {
     "property investment specialist",
     "off-plan real estate Dubai",
     "real estate leadership",
-    "trusted property advisor"
+    "trusted property advisor",
   ],
 
   alternates: {
@@ -50,7 +50,6 @@ export const metadata = {
 };
 
 export default function page() {
-  
   return (
     <>
       <HeaderBlack />
@@ -65,7 +64,6 @@ export default function page() {
                       <div className="ip-about-sec1-text">
                         <div className="!text-sm !mb-4 !m-0 !p-0 max-w-md !font-normal  font-benton">
                           Bringing expertise to world's elite with{" "}
-                          <strong> Dubai Sotheby's International Realty</strong>
                         </div>
                         <div className="ip-about-sec1-text-title wow fadeInRight !capitalize">
                           Shoaib
@@ -99,84 +97,7 @@ export default function page() {
                       </div>
                     </div>
                   </div>
-                  <section className="pt-8 md:py-12   flex items-center">
-                    <div className="container flex flex-col ">
-                      <div className="flex items-center md:justify-left   ">
-                        <hr className="hidden lg:block !mr-8 w-[200px] border-none" />
 
-                        <h1 className="text-4xl tracking-normal text-center    md:text-5xl font-normal !mb-4 md:!mb-10 text-sothebys-blue">
-                          Dubai Sotheby's International Realty ®
-                        </h1>
-                      </div>
-                      <div className="flex items-center md:justify-left">
-                        <hr className="hidden md:block !mr-8 w-[200px] border-sothebys-blue border-b-1" />
-                        <div className="font-acta tracking-normal text-md md:text-xl text-left font-normal md:max-w-4xl p-2 md:p-0">
-                          Founded in 1976, Sotheby's International Realty has
-                          always been a highly sought-after name for the world's
-                          wealthiest individuals when it comes to luxury
-                          property and today our ever-expanding network includes
-                          over 26,500 property consultants in 1,115 offices
-                          across 84 countries and territories. With our
-                          exclusive connections and international reach, we are
-                          the ideal partner for buying and selling the world's
-                          most beautiful homes.
-                        </div>
-                      </div>
-                    </div>
-                  </section>
-                  <section className="md:py-12 text-center ">
-                    <div className="container   flex justify-center items-center py-12 md:!py-2 pr-4">
-                      <div className="w-1/2 pl-2 md:!pl-0 md:!pr-8">
-                        <h2 className="text-2xl md:text-3xl tracking-normal  !mb-4 text-left font-normal text-sothebys-blue">
-                          Global Reach, Local Expertise
-                        </h2>
-                        <div className="font-acta font-normal text-md md:text-lg text-gray-700 text-left md:max-w-lg">
-                          <div className="tracking-normal">
-                            Offering unrivalled access to distinctive properties
-                            and qualified people around the world. Delivering
-                            exceptional service in the luxury real estate market
-                            with a trusted global network.
-                          </div>
-                        </div>
-                      </div>
-                      <div className="w-1/2 pl-8 tracking-normal">
-                        <div className="grid md:grid-cols-2 gap-2 md:gap-4 text-left text-sothebys-blue">
-                          <div className="mb-4">
-                            <div className="text-2xl md:text-4xl font-acta font-normal">
-                              1,115
-                            </div>
-                            <div className="text-xs md:text-md font-benton ">
-                              OFFICES WORLDWIDE
-                            </div>
-                          </div>
-                          <div className="mb-4">
-                            <div className="text-2xl md:text-4xl font-acta font-normal">
-                              26,500
-                            </div>
-                            <div className="text-xs md:text-md font-benton">
-                              SALES ASSOCIATES
-                            </div>
-                          </div>
-                          <div className="mb-4">
-                            <div className="text-2xl md:text-4xl font-acta font-normal">
-                              84
-                            </div>
-                            <div className="text-xs md:text-md font-benton">
-                              COUNTRIES &amp; TERRITORIES
-                            </div>
-                          </div>
-                          <div className="mb-4">
-                            <div className="text-2xl md:text-4xl font-acta font-normal">
-                              $143 Billion
-                            </div>
-                            <div className="text-xs md:text-md font-benton">
-                              ANNUAL SALES
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </section>
                   <section className="py-2 tracking-normal">
                     <div className="contaier lg:mx-auto grid grid-cols-1 md:grid-cols-3 gap-8 bg-[#112548]">
                       <div className="md:col-span-2">
@@ -188,28 +109,33 @@ export default function page() {
                       </div>
                       <div className="md:col-span-1 flex flex-col justify-center text-center md:text-left">
                         <h2 className="text-3xl md:text-4xl font-normal !mb-2 text-[#ffffff]">
-                          Unrivalled <span className="">Expertise</span>{" "}
-                          Wherever In The World You Need It To Be
+                          Unmatched Global Real Estate Expertise, Wherever You
+                          Need It
                         </h2>
                         <div className="p-2 md:p-0 font-benton my-2 text-left text-white text-sm">
-                          Dubai Sotheby's International Realty is part of one of
-                          the world's most respected luxury real estate brands
-                          and is committed to delivering extraordinary results
-                          through our local expertise, global footprint and
-                          exclusive network.
+                          Led by Shoaib Sahid—an internationally acclaimed real
+                          estate consultant with over 15 years of experience and
+                          more than $1.5 billion in property sales—Dubai
+                          Sotheby's International Realty offers an elite level
+                          of service in the world's most exclusive markets. With
+                          a proven track record as Christie's International Real
+                          Estate's top earner for three consecutive years,
+                          Shoaib brings unrivalled insight, precision, and a
+                          results-driven approach to every transaction.
                         </div>
                         <div className="p-2 md:p-0 font-benton text-left text-white text-sm">
-                          As well as a distinguished service and our commitment
-                          to bespoke, individualised support for each client, we
-                          also employ superior strategic marketing and state of
-                          the art technology solutions, so that your luxury
-                          property is put front, right and center, capturing the
-                          attention of buyers that matter most.
+                          Specializing in off-plan properties, luxury estates,
+                          and prime land acquisitions for private developers,
+                          Shoaib combines deep local knowledge with a powerful
+                          global network. Clients benefit from bespoke,
+                          one-on-one service, cutting-edge marketing strategies,
+                          and innovative technology that ensures your property
+                          stands out to high-value buyers across the globe.
                         </div>
                       </div>
                     </div>
                   </section>
-                  <section className="py-2 tracking-normal">
+                  {/* <section className="py-2 tracking-normal">
                     <div className="contaier lg:mx-auto grid grid-cols-1 md:grid-cols-3 gap-8 border border-sothebys-blue">
                       <div className="md:col-span-2">
                         <img
@@ -232,12 +158,12 @@ export default function page() {
                         </div>
                       </div>
                     </div>
-                  </section>
+                  </section> */}
 
                   <section className="py-2 tracking-normal">
                     <div className="contaier lg:mx-auto  bg-[#112548]">
                       <Image
-                        src="/assets/about.jpeg"
+                        src="/assets/group.jpg"
                         width="1800"
                         height="900"
                         alt="group"
