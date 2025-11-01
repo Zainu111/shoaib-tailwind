@@ -1,9 +1,9 @@
 import Image from "next/image";
 import Link from "next/link";
 import React from "react";
-import project1 from "@/public//assets/project1.jpg";
+import project1 from "@/public//assets/982683c6-23d2-4d52-a272-980a1126e2ec.webp";
 import project2 from "@/public//assets/project2.jpg";
-import project3 from "@/public//assets/four_season.jpg";
+import project3 from "@/public//assets/img74.jpg";
 export default function Developments() {
   return (
     <section className="py-12 px-4 bg-white">

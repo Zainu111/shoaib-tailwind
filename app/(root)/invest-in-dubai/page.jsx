@@ -223,7 +223,7 @@ const page = () => {
           Dubai Economic Agenda 'D33'
         </h2>
         <img
-          src="/assets/burj.jpg" // Replace with your image URL
+          src="/assets/dtcm-dubai-tourism-projects-header-dubai-clouds.jpg" // Replace with your image URL
           alt="Invest in Dubai"
           className="w-full h-screen object-cover"
         />

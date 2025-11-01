@@ -1,7 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import React from "react";
-import c1 from "@/public/assets/c1.jpg";
+import c1 from "@/public/assets/strYYZXRls.353670.jpg";
 import services2 from "@/public/assets/women_with_child.jpg";
 export default function Featured() {
   return (
@@ -12,9 +12,9 @@ export default function Featured() {
             <span className=""> Global Reach, Local Expertise:</span>{" "}
             <b>We're International</b>, Everywhere You Need Us
           </h2>
-          <div className="">
+          <div className="w-[400] h-[600px] overflow-hidden ">
             <Image
-              className="w-full h-full"
+              className="w-full h-full object-cover"
               alt="service"
               src={c1}
               width={400}
